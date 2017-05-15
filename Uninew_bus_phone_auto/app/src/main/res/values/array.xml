@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <string-array name="hero_name">
+        <item>9路上行</item>
+        <item>9路下行</item>
+        <item>704路上行</item>
+        <item>704路下行</item>
+        <item>10路上行</item>
+        <item>10路上行</item>
+    </string-array>  
+    <string-array name="time_interval">
+        <item>300</item>
+        <item>500</item>
+        <item>1000</item>
+    </string-array> 
+    <string-array name="bus_color">
+        <item>未上牌</item>
+        <item>蓝色</item>
+        <item>黄色</item>
+        <item>黑色</item>
+        <item>白色</item>
+        <item>其他</item>
+    </string-array> 
+    
+    <string-array name="simulate_speech">
+        <item>200</item>
+         <item>300</item>
+        <item>500</item>
+        <item>1000</item>
+    </string-array>
+    
+</resources>
