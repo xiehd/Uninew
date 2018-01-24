@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:id="@android:id/text1"
+                 android:layout_width="104dp"
+                 android:layout_height="22dp"
+                 android:gravity="center_vertical"
+                 android:background="@drawable/spinner_selector"
+                 android:textColor="#f1f1f1"
+                 android:textSize="@dimen/fragment_layout_textSize">
+</CheckedTextView>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="22dp"
+            android:paddingTop="13dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="200dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/maintance_inpecte_content" />
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_parameter_text2" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_power_acc" />
+
+                <Spinner
+                    android:id="@+id/spinner_mangae_power_acc"
+                    style="@style/setting_spinner"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_power_left"
+                    android:entries="@array/alarm_spinner"></Spinner>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/spinner_mangae_power_acc"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="9dp"
+                    android:src="@mipmap/spinner_img_dwon" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_power_bootmodel" />
+
+                <Spinner
+                    android:id="@+id/spinner_mangae_power_bootmodel"
+                    style="@style/setting_spinner"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_power_left"
+                    android:entries="@array/alarm_spinner"></Spinner>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/spinner_mangae_power_bootmodel"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="9dp"
+                    android:src="@mipmap/spinner_img_dwon" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_power_noboottime" />
+
+                <EditText
+                    android:id="@+id/mangae_power_noboottime"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_power_left"
+                    android:background="@mipmap/spinner_bg"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="1dp"
+                    android:text="10" />
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/mangae_power_noboottime"
+                    android:paddingLeft="8dp"
+                    android:text="@string/seeting_miao" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_power_lowpower" />
+
+                <CheckBox
+                    android:id="@+id/mangae_power_lowpower"
+                    style="@style/CustomCheckboxTheme"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_power_left"
+                    android:checked="true"></CheckBox>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_power_acc_battery_low" />
+
+                <EditText
+                    android:id="@+id/mangae_power_acc_battery_low"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_power_left"
+                    android:background="@mipmap/spinner_bg"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionDone"
+                    android:inputType="phone"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="1dp"
+                    android:text="9.0" />
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/mangae_power_acc_battery_low"
+                    android:paddingLeft="8dp"
+                    android:text="V (8-12.4V)" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_power_recovery_power" />
+
+                <EditText
+                    android:id="@+id/mangae_power_recovery_power"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_power_left"
+                    android:background="@mipmap/spinner_bg"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionDone"
+                    android:inputType="phone"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="1dp"
+                    android:text="12.0" />
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/mangae_power_recovery_power"
+                    android:paddingLeft="8dp"
+                    android:text="V (12-14V)" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_power_battery_alarm" />
+
+                <CheckBox
+                    android:id="@+id/mangae_power_battery_alarm"
+                    style="@style/CustomCheckboxTheme"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_power_left"
+                    android:checked="true"></CheckBox>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="80dp">
+
+                <Button
+                    android:id="@+id/power_btn_defult"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/base_btn_selector"
+                    android:text="@string/mangae_btn_defult" />
+
+                <Button
+                    android:id="@+id/power_btn_save"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="90dp"
+                    android:layout_toRightOf="@+id/power_btn_defult"
+                    android:background="@drawable/base_btn_selector"
+                    android:text="@string/mangae_btn_save" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

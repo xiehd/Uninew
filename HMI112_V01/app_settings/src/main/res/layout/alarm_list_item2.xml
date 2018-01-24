@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:orientation="horizontal"
+    android:paddingBottom="10dp"
+    android:paddingLeft="2dp"
+    android:paddingRight="4dp"
+    android:paddingTop="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/alram_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/alram_index"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@android:color/background_dark"
+            android:textSize="9dp" />
+
+        <TextView
+            android:id="@+id/alram_type"
+            style="@style/SecondaryTile"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/alram_index"
+            android:text="超速报警" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/time_t1"
+            style="@style/SecondaryTile"
+            android:layout_centerVertical="true"
+            android:text="@string/more_alarm_speed_startime"
+            android:textColor="@color/textColor_set"
+             />
+
+        <TextView
+            android:id="@+id/speed_alarm_starttime"
+            style="@style/SecondaryTile"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/time_t1"
+            android:text="2017-08-04 10:05:01"
+            android:textColor="@color/textColor_set"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

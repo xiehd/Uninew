@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="menu_textSize">18sp</dimen>
+    <dimen name="textSize">16sp</dimen>
+
+    <dimen name="mangae_base_left">130dp</dimen>
+    <dimen name="mangae_power_left">130dp</dimen>
+
+    <dimen name="mangae_parameter_left">155dp</dimen>
+    <dimen name="mangae_parameter_cheakbox">5dp</dimen>
+    <dimen name="mangae_parameter_seria">50dp</dimen>
+    <dimen name="mangae_parameter_state">280dp</dimen>
+
+
+    <dimen name="left_textSize">14sp</dimen>
+    <dimen name="fragment_title_textSize">14sp</dimen>
+    <dimen name="fragment_layout_textSize">12sp</dimen>
+</resources>

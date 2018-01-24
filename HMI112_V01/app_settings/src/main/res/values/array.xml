@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="day_format">
+        <item>yyyy年MM月dd</item>
+        <item>yyyy-MM-dd</item>
+        <item>yyyy:MM:dd</item>
+    </string-array>
+
+    <string-array name="time_format">
+        <item>24hour</item>
+        <item>12hour</item>
+    </string-array>
+
+    <string-array name="alarm_spinner">
+        <item>Today</item>
+        <item>Week</item>
+        <item>Month</item>
+        <item>All</item>
+    </string-array>
+
+    <string-array name="base_time_spinner">
+        <item>Never Quit</item>
+        <item>30s</item>
+        <item>60s</item>
+        <item>130s</item>
+        <item>300s</item>
+    </string-array>
+    <string-array name="base_printer_spinner">
+        <item>Null</item>
+        <item>Strong</item>
+        <item>During</item>
+        <item>Weak</item>
+    </string-array>
+
+    <string-array name="serial_rate_spinner">
+        <item>4800</item>
+        <item>9600</item>
+        <item>14400</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+    </string-array>
+
+    <string-array name="serial_out_spinner">
+        <item>null</item>
+        <item>LED</item>
+        <item>Meter</item>
+    </string-array>
+
+    <string-array name="sensor_a_spinner">
+        <item>null</item>
+        <item>Manual alarm</item>
+        <item>Front left door</item>
+        <item>Right front door</item>
+        <item>Evaluation(Dissatisfied)</item>
+        <item>Evaluation(Satisfied)</item>
+        <item>Evaluation(Very satisfied)</item>
+        <item>Headlight signal</item>
+        <item>Driver location</item>
+    </string-array>
+
+    <string-array name="sensor_b_spinner">
+        <item>High level</item>
+        <item>Low level</item>
+    </string-array>
+    <string-array name="sensor_c_spinner">
+        <item>null</item>
+        <item>Video1</item>
+        <item>Video2</item>
+    </string-array>
+
+    <string-array name="sensor_out_spinner">
+        <item>null</item>
+        <item>Oil Road</item>
+        <item>Circuit</item>
+        <item>Evaluator power</item>
+        <item>Empty</item>
+        <item>Heavy</item>
+        <item>Order</item>
+        <item>Outage</item>
+        <item>Car Door</item>
+    </string-array>
+    <string-array name="power_acc_spinner">
+        <item>Switch machine</item>
+        <item>Sleep</item>
+    </string-array>
+
+    <string-array name="power_bootmodel_spinner">
+        <item>ignition</item>
+    </string-array>
+
+
+    <string-array name="speed_km_spinner">
+        <item>km/h</item>
+        <item>mile/h</item>
+    </string-array>
+    <string-array name="speed_source_spinner">
+        <item>satellite</item>
+        <item>pulse</item>
+        <item>CAN</item>
+    </string-array>
+</resources>

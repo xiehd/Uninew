@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="43dp">
+
+        <EditText
+            android:id="@+id/et_input"
+            style="@style/FirstTitle"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="41dp"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:inputType="none"
+            android:text="15874555260" />
+
+        <ImageButton
+            android:id="@+id/img_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="35dp"
+            android:background="@drawable/sign_edi_del" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/key_bg"
+        android:paddingLeft="10dp"
+        android:paddingTop="7dp">
+
+        <Button
+            android:id="@+id/key_one"
+            style="@style/sign_key_number"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/key_two"
+            style="@style/sign_key_number"
+            android:layout_toRightOf="@+id/key_one"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/key_three"
+            style="@style/sign_key_number"
+            android:layout_toRightOf="@+id/key_two"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/key_four"
+            style="@style/sign_key_number"
+            android:layout_below="@+id/key_one"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/key_five"
+            style="@style/sign_key_number"
+            android:layout_below="@+id/key_two"
+            android:layout_toRightOf="@+id/key_four"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/key_six"
+            style="@style/sign_key_number"
+            android:layout_below="@+id/key_three"
+            android:layout_toRightOf="@+id/key_five"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/key_zero"
+            style="@style/sign_key_number"
+            android:layout_below="@+id/key_xin"
+            android:layout_toRightOf="@+id/key_six"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/key_seven"
+            style="@style/sign_key_number"
+            android:layout_below="@+id/key_four"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/key_eight"
+            style="@style/sign_key_number"
+            android:layout_below="@+id/key_five"
+            android:layout_toRightOf="@+id/key_seven"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/key_nine"
+            style="@style/sign_key_number"
+            android:layout_below="@+id/key_six"
+            android:layout_toRightOf="@+id/key_eight"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/key_jin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/key_zero"
+            android:layout_toRightOf="@+id/key_nine"
+            android:background="@drawable/key_jin_selector"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/key_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/key_del"
+            android:layout_toRightOf="@+id/key_zero"
+            android:background="@drawable/btn_call_seletor" />
+
+        <Button
+            android:id="@+id/key_xin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/key_three"
+            android:background="@drawable/key_xin_selector"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/key_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/key_xin"
+            android:background="@drawable/key_del_selector"
+            android:gravity="center" />
+
+    </RelativeLayout>
+
+</LinearLayout>

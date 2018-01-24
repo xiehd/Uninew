@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="22dp"
+            android:paddingTop="13dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="100dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/maintance_inpecte_content" />
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/maintance_data_text" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_setting_base_carNumber" />
+
+                <EditText
+                    android:id="@+id/mangae_setting_base_carNumber"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_base_left"
+                    android:background="@mipmap/spinner_bg"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionDone"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="1dp"
+                    android:text="粤B12344" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_setting_base_terminalNumber" />
+
+                <EditText
+                    android:id="@+id/mangae_setting_base_terminalNumber"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_base_left"
+                    android:background="@mipmap/spinner_bg"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="1dp"
+                    android:text="10110001110041" />
+
+                <Button
+                    android:id="@+id/mangae_setting_base_zhuce"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/mangae_setting_base_terminalNumber"
+                    android:background="@drawable/zhuce_selector"
+                    android:text="@string/mangae_setting_base_zhuce"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_setting_base_canmpertName" />
+
+                <EditText
+                    android:id="@+id/mangae_setting_base_canmpertName"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_base_left"
+                    android:background="@mipmap/spinner_bg"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionDone"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="1dp"
+                    android:text="深圳市智慧联芯公司" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    android:id="@+id/textView"
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_setting_base_dvrNumber" />
+
+                <EditText
+                    android:id="@+id/mangae_setting_base_dvrNumber"
+                    style="@style/SecondaryTile"
+                    android:layout_alignBaseline="@+id/textView"
+                    android:layout_alignBottom="@+id/textView"
+                    android:layout_marginLeft="@dimen/mangae_base_left"
+                    android:background="@mipmap/spinner_bg"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionDone"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="1dp"
+                    android:text="不存在" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_setting_base_time" />
+
+                <Spinner
+                    android:id="@+id/spinner_base_time"
+                    style="@style/setting_spinner"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_base_left"
+                    android:entries="@array/alarm_spinner"></Spinner>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/spinner_base_time"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="9dp"
+                    android:src="@mipmap/spinner_img_dwon" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_setting_base_printer" />
+
+                <Spinner
+                    android:id="@+id/spinner__base_printer"
+                    style="@style/setting_spinner"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_base_left"
+                    android:entries="@array/alarm_spinner"></Spinner>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/spinner__base_printer"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="9dp"
+                    android:src="@mipmap/spinner_img_dwon" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_setting_base_latch" />
+
+                <TextView
+                    android:id="@+id/latch_text"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="70dp"
+                    android:text="@string/mangae_setting_base_pre_time" />
+
+                <EditText
+                    android:id="@+id/edi_latch_time"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="4dp"
+                    android:layout_toRightOf="@+id/latch_text"
+                    android:background="@mipmap/spinner2_up"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="1dp"
+                    android:text="30" />
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="3dp"
+                    android:layout_toRightOf="@+id/edi_latch_time"
+                    android:text="@string/mangae_setting_base_minute" />
+
+                <TextView
+                    android:id="@+id/delay_text"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="50dp"
+                    android:layout_toRightOf="@+id/edi_latch_time"
+                    android:text="@string/mangae_setting_base_delay_time" />
+
+                <EditText
+                    android:id="@+id/edi_delay_time"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="4dp"
+                    android:layout_toRightOf="@+id/delay_text"
+                    android:background="@mipmap/spinner2_up"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="1dp"
+                    android:text="30" />
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="3dp"
+                    android:layout_toRightOf="@+id/edi_delay_time"
+                    android:text="@string/mangae_setting_base_minute" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="85dp">
+
+                <Button
+                    android:id="@+id/mangae_btn_defult"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/base_btn_selector"
+                    android:text="@string/mangae_btn_defult" />
+
+                <Button
+                    android:id="@+id/mangae_btn_save"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="100dp"
+                    android:layout_toRightOf="@+id/mangae_btn_defult"
+                    android:background="@drawable/base_btn_selector"
+                    android:text="@string/mangae_btn_save" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,62 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        applicationId "com.uninew.net"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile files('libs/ZipEntry.jar')
+    compile project(':lib_location')
+    compile project(':lib_db')
+    compile files('libs/Msc.jar')
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+}
+
+//打包jar使用
+apply plugin: 'jar-gradle-plugin'
+BuildJar {
+    //输出目录
+    outputFileDir = project.buildDir.path + "/jar"
+    //输出原始jar包名
+    outputFileName = "uninew_communication.jar"
+    //输出混淆jar包名
+    outputProguardFileName = "uninew_communication_proguard.jar"
+    //混淆配置
+    proguardConfigFile = "proguard-rules.pro"
+    //是否需要默认的混淆配置proguard-android.txt
+//    needDefaultProguard=true
+    applyMappingFile = "originMapping/mapping.txt"
+    //需要输出jar的包名列表,当includePackage&includeClass为空时，则默认全项目输出,支持多包,如 includePackage=['com/adison/testjarplugin/include','com/adison/testjarplugin/include1'...]
+    includePackage = ['com/uninew/net/JT905/bean', 'com/uninew/net/JT905/comm', 'com/uninew/net/JT905/common',
+                      'com/uninew/net/Taximeter','com/uninew/net/Alarm','com/uninew/net/audio','com/uninew/net/JT905/util']
+    //需要输出jar的类名列表
+//    includeClass=['com/adison/testjarplugin/include/TestInclude.class']
+    //不需要输出jar的jar包列表,如['baidu.jar','baidu1.jar'...]
+//    excludeJar=[]
+    //不需要输出jar的类名列表,如['baidu.calss','baidu1.class'...]
+//    excludeClass=['com/adison/testjarplugin/TestExcude.class']
+    //不需要输出jar的包名列表,如 excludePackage=['com/adison/testjarplugin/exclude','com/adison/testjarplugin/exclude1'...]
+//    excludePackage=['com/uninew/net']
+
+    //gradlew.bat buildJar
+
+}

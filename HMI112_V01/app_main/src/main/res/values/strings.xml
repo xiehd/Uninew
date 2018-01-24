@@ -1,0 +1,186 @@
+<resources>
+    <string name="app_id">53ed5edd</string>
+    <string name="app_name">Taxi System</string>
+    <string name="prompt">Tips</string>
+    <string name="confirm">confirm</string>
+    <string name="back">back</string>
+    <string name="search">search</string>
+    <string name="submit">submit</string>
+    <!---   ******************    更多  *************************** -->
+    <string name="more_title">More</string>
+    <string name="more_system_setting">System Settings</string>
+    <string name="more_communtion_setting">Communication Settings</string>
+    <string name="more_set_setting">Basic Settings</string>
+    <string name="more_device_miantain">Equipment Maintenance</string>
+    <string name="more_device_state">Device Status</string>
+    <string name="more_driver_information">Driver information</string>
+
+    <string name="more_system_voice">System Volume</string>
+    <string name="more_system_light">Display Brightness</string>
+    <string name="more_system_wifi_connect">Wifi Connection</string>
+    <string name="more_system_host_setting">Hotspot Settings</string>
+    <string name="more_system_time_setting">Time Settings</string>
+    <string name="more_system_reset">System Reset</string>
+
+    <!--- ***************************** 主页************************************ -->
+    <string name="main_heavy_car">Heavy</string>
+    <string name="main_empty_car">Empty</string>
+    <string name="main_pause">Pause</string>
+    <string name="main_default_money">0.00RMB</string>
+    <string name="main_title_price">Price：</string>
+    <string name="main_default_mileage">0.00km</string>
+    <string name="main_title_mileage">Metering：</string>
+    <string name="main_default_time">00:00:00</string>
+    <string name="main_title_timer">Timing：</string>
+    <string name="main_default_drivername">Stephen Hawking</string>
+    <string name="main_title_controlphone">Tel：</string>
+    <string name="main_default_controlphone">0755-1264809</string>
+    <string name="main_title_certificate">Certificate：</string>
+    <string name="main_default_certificate">123456789120</string>
+    <string name="main_order_text">Order</string>
+    <string name="main_msg_text">Message</string>
+    <string name="main_navigation_text">Navigation</string>
+    <string name="main_call_text">Call</string>
+    <string name="main_revenue_text">Revenue</string>
+    <string name="main_more_text">More</string>
+    <!--- ***************************** 单位************************************ -->
+    <string name="yuan">RMB</string>
+    <string name="kilometre">km</string>
+    <string name="no">null</string>
+    <string name="dialog_grab">Grab</string>
+    <string name="error">The message is wrong!</string>
+    <string name="arrivals">To</string>
+    <string name="from">From</string>
+    <string name="minute">min</string>
+
+    <!--- ****************************** 电召 ************************************ -->
+    <string name="orders">Order</string>
+    <string name="details_order">Order Details</string>
+    <string name="orders_bade_text">Winning Bid</string>
+    <string name="orders_finish_text">Completed</string>
+    <string name="orders_other_text">Other</string>
+    <string name="orders_temporary_type">Temporary Order</string>
+    <string name="orders_bespeak_type">Appointment Order</string>
+    <string name="orders_assign_type">Vehicle Assignment</string>
+    <string name="orders_bade_state">Winning Bid</string>
+    <string name="orders_finish_state">Completed</string>
+    <string name="orders_passenger_cancel_state">Passenger Canceled</string>
+    <string name="orders_driver_cancel_state">Driver Canceled</string>
+    <string name="orders_failure_state">Grab Failure</string>
+    <string name="orders_success_state">Grab Success</string>
+    <string name="orders_other_state">Other</string>
+    <string name="order_title_state">Order State：</string>
+    <string name="order_title_id">Business ID：</string>
+    <string name="order_title_bade_time">Winning Time：</string>
+    <string name="order_title_phone">Passenger Phone：</string>
+    <string name="order_title_call_time">Arrival Time：</string>
+    <string name="order_title_servicecharge">Order Service Fee：</string>
+    <string name="order_title_details">Business Description：</string>
+    <string name="order_title_grad_time">Winning Time：</string>
+    <string name="order_title_finish_time">Finish Time：</string>
+    <string name="order_title_cancel_time">Canceled Time：</string>
+    <string name="order_button_cancel">canceled</string>
+    <string name="order_button_confirm">confirm order</string>
+    <string name="order_button_finish">completed</string>
+    <string name="order_button_back">back</string>
+    <string name="order_default_time">2017-09-14 10:12:00</string>
+    <string name="order_default_phone">15812314256</string>
+    <string name="order_default_id">123456789123</string>
+    <string name="order_default_address">South Gate Road, Nanshan District, Shenzhen City Zhiheng Industrial Park Road 301</string>
+    <string name="order_dialog_cancel">Confirm to cancel the order? \n Please note that canceling may affect the overall rating!</string>
+    <string name="order_dialog_finish">Confirm submission order completed?</string>
+    <string name="order_dialog_finish_success">Mission completed the submission of success!</string>
+    <string name="order_dialog_cancel_success">Driver cancel order success!</string>
+    <string name="order_dialog_cancel_failure">Driver canceled order failed!</string>
+    <string name="order_remind_grab_failure">Unfortunately, grab a single failure!</string>
+    <string name="order_need_time">Arrival Time：</string>
+    <string name="order_accident">Accident</string>
+    <string name="order_block">Road blocking</string>
+    <string name="order_title_number">order number：</string>
+    <string name="order_new_receive">Received a new order task, please grab a single!</string>
+    <!--- *****************************签到签退************************************ -->
+    <string name="sign_edi_hini">Please enter the card number</string>
+    <string name="sign_out_ok">Sign out</string>
+    <string name="sign_out_current_T">Work Time:</string>
+    <string name="sign_out_star_T">start</string>
+    <string name="sign_out_end_T">end</string>
+    <string name="sign_out_operNumber">Operate Number:</string>
+    <string name="sign_out_runKm">Driven Distance:</string>
+    <string name="sign_out_carryKm">Passenger Mileage:</string>
+    <string name="sign_out_degree">Times</string>
+    <string name="sign_in_keyin">Sign</string>
+    <string name="sign">Attendance</string>
+    <string name="sign_in_success">Sign In Success</string>
+    <string name="sign_in_fail">Sign In Fail</string>
+    <string name="sign_out_success">Sign Out Success</string>
+    <string name="sign_out_fail">Sign Out Fail</string>
+
+    <!--- ***************************** 通话 ************************************ -->
+    <string name="phone_call_keyboard">Dial Pad</string>
+    <string name="phone_call_contact">contacts</string>
+    <string name="phone_call_recording">records</string>
+    <string name="phone_unknown_contact">Unknown contact</string>
+    <string name="phone">call</string>
+    <string name="call">dial</string>
+
+    <!--- ***************************** 消息 ************************************ -->
+    <string name="msg">Message</string>
+    <string name="details_msg">Revenue Details</string>
+    <string name="answered">Answered</string>
+    <string name="unanswered">No Answer</string>
+    <string name="msg_serial_number">Number</string>
+    <string name="msg_time">Time</string>
+    <string name="msg_content">Content</string>
+    <string name="msg_event">Event</string>
+    <string name="msg_answer">Answer</string>
+    <string name="msg_number">Numbering</string>
+    <string name="msg_communique">Message</string>
+        <string name="msg_question">Questions</string>
+    <string name="msg_operation">Operating</string>
+    <string name="msg_receive_time">Send Time：</string>
+    <string name="msg_communique_content">Message content：</string>
+    <string name="msg_select_answered">Optional Answer：</string>
+    <string name="msg_readed">Have Read</string>
+    <string name="msg_unread">Unread</string>
+
+    <!--- ***************************** 运营 ************************************ -->
+    <string name="revenue_driving_mileage">Driven Distance：</string>
+    <string name="revenue_bare_mileage">Empty Mileage：</string>
+    <string name="revenue_wait_time">Waiting Time：</string>
+    <string name="revenue_times">Operations Number：</string>
+    <string name="revenue_bare_rate">Empty Rate：</string>
+    <string name="revenue_amount">Total Operation：</string>
+    <string name="revenue_card_amount">Card Amount：</string>
+    <string name="revenue_history_button">Historical</string>
+    <string name="revenue_current_button">Shift Operation</string>
+    <string name="revenue_current">Shift Operation：</string>
+    <string name="revenue_history">Historical：</string>
+    <string name="revenue_boarding_time">Boarding Time：</string>
+    <string name="revenue_driving_time">Travel Time：</string>
+    <string name="revenue_current_times">Current Number：</string>
+    <string name="revenue_travel_type">Transaction Type：</string>
+    <string name="revenue_wait_timer">Waiting Timing：</string>
+    <string name="revenue_surcharge">Additional Fee：</string>
+    <string name="details_revenue">Revenue Details</string>
+    <string name="revenue_transactions_cash">Cash</string>
+    <string name="revenue">Revenue</string>
+    <!--- ***************************** 评价 ************************************ -->
+    <string name="evaluation_title">Please evaluate our service, thank you!</string>
+    <string name="evaluation_reminder">Please bring your belongings, get off the right door!</string>
+    <string name="evaluation_mileage">mileage</string>
+    <string name="evaluation_order">Electricity Charge</string>
+    <string name="evaluation_time">Time</string>
+    <string name="evaluation_surcharge">Additional Fee</string>
+    <string name="evaluation_amount">Amount</string>
+    <string name="evaluation_yuan_symbol">¥</string>
+    <string name="evaluation">Evaluation</string>
+
+    <string name="rainy">Rainy days, please be careful driving!</string>
+    <string name="normal">normal</string>
+    <string name="unusual">unusual</string>
+
+    <string name="evaluation_hini">请对本次服务进行评价！</string>
+    <string name="evaluation_toast">客人未评价！</string>
+    <string name="evaluation_succeed">评价成功！</string>
+    <string name="evaluation_failed">评价失败！</string>
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:background="@color/gridview_one"
+    android:weightSum="4"
+     >
+    <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView 
+            android:id="@+id/version_name"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="mms"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:gravity="center"
+            />
+    </LinearLayout>
+        <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        >
+        <TextView 
+            android:id="@+id/version_pkg_currrent"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+            android:text="2.12"
+            android:gravity="center"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+            <LinearLayout 
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView 
+            android:id="@+id/version_pkg_new"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textColor="@color/white"
+             android:text="2.13"
+             android:gravity="center"
+             android:textSize="14sp"
+            />
+    </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/version_handler"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/btn_ensure_selector"
+                    android:gravity="center"
+                    android:text="升级"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+</LinearLayout>

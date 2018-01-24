@@ -1,0 +1,189 @@
+<resources>
+    <string name="app_id">53ed5edd</string>
+    <string name="app_name">出租车系统</string>
+    <string name="prompt">温馨提示</string>
+    <string name="confirm">确认</string>
+    <string name="back">返回</string>
+    <string name="search">搜索</string>
+    <string name="submit">提交</string>
+    <!---   ******************    更多  *************************** -->
+    <string name="more_title">更多</string>
+    <string name="more_system_setting">系统设置</string>
+    <string name="more_communtion_setting">通讯设置</string>
+    <string name="more_set_setting">基础设置</string>
+    <string name="more_device_miantain">设备维护</string>
+    <string name="more_device_state">设备状态</string>
+    <string name="more_driver_information">司机信息</string>
+
+    <string name="more_system_voice">系统音量</string>
+    <string name="more_system_light">显示亮度</string>
+    <string name="more_system_wifi_connect">Wifi连接</string>
+    <string name="more_system_host_setting">热点设置</string>
+    <string name="more_system_time_setting">时间设置</string>
+    <string name="more_system_reset">系统重置</string>
+
+    <!--- ***************************** 主页************************************ -->
+    <string name="main_heavy_car">重车</string>
+    <string name="main_empty_car">空车</string>
+    <string name="main_pause">暂停</string>
+    <string name="main_default_money">0.00元</string>
+    <string name="main_title_price">单价：</string>
+    <string name="main_default_mileage">0.00公里</string>
+    <string name="main_title_mileage">计程：</string>
+    <string name="main_default_time">00:00:00</string>
+    <string name="main_title_timer">计时：</string>
+    <string name="main_default_drivername">张三丰</string>
+    <string name="main_title_controlphone">监 督 电 话：</string>
+    <string name="main_default_controlphone">0755-1264809</string>
+    <string name="main_title_certificate">从业资格证：</string>
+    <string name="main_default_certificate">123456789120</string>
+    <string name="main_order_text">电召</string>
+    <string name="main_msg_text">信息</string>
+    <string name="main_navigation_text">导航</string>
+    <string name="main_call_text">通话</string>
+    <string name="main_revenue_text">营收</string>
+    <string name="main_more_text">更多</string>
+    <!--- ***************************** 单位************************************ -->
+    <string name="yuan">元</string>
+    <string name="kilometre">公里</string>
+    <string name="no">无</string>
+    <string name="dialog_grab">抢</string>
+    <string name="error">消息有误</string>
+    <string name="arrivals">到</string>
+    <string name="from">从</string>
+    <string name="minute">分钟</string>
+
+    <!--- ****************************** 电召 ************************************ -->
+    <string name="orders">电召</string>
+    <string name="details_order">电召详情</string>
+    <string name="orders_bade_text">已中标</string>
+    <string name="orders_finish_text">已完成</string>
+    <string name="orders_other_text">其他</string>
+    <string name="orders_temporary_type">临时召车</string>
+    <string name="orders_bespeak_type">预约召车</string>
+    <string name="orders_assign_type">车辆指派</string>
+    <string name="orders_bade_state">已中标</string>
+    <string name="orders_finish_state">已完成</string>
+    <string name="orders_passenger_cancel_state">乘客取消</string>
+    <string name="orders_driver_cancel_state">司机取消</string>
+    <string name="orders_failure_state">抢单失败</string>
+    <string name="orders_success_state">抢单成功</string>
+    <string name="orders_other_state">其他</string>
+    <string name="order_title_state">电召状态：</string>
+    <string name="order_title_id">业 务 I D ：</string>
+    <string name="order_title_bade_time">中标时间：</string>
+    <string name="order_title_phone">乘客电话：</string>
+    <string name="order_title_call_time">要车时间：</string>
+    <string name="order_title_servicecharge">电召服务费：</string>
+    <string name="order_title_details">业务描述：</string>
+    <string name="order_title_grad_time">抢单时间：</string>
+    <string name="order_title_finish_time">完成时间：</string>
+    <string name="order_title_cancel_time">取消时间：</string>
+    <string name="order_button_cancel">取消订单</string>
+    <string name="order_button_confirm">确认订单</string>
+    <string name="order_button_finish">任务完成</string>
+    <string name="order_button_back">返回</string>
+    <string name="order_default_time">2017-09-14 10:12:00</string>
+    <string name="order_default_phone">15812314256</string>
+    <string name="order_default_id">123456789123</string>
+    <string name="order_default_address">深圳市南山区南头关口二路智恒产业园30栋301</string>
+    <string name="order_dialog_cancel">确认取消该订单吗？\n请注意，取消可能会影响综合评分！</string>
+    <string name="order_dialog_finish">确认提交订单完成？</string>
+    <string name="order_dialog_finish_success">任务完成提交成功！</string>
+    <string name="order_dialog_cancel_success">司机取消订单成功！</string>
+    <string name="order_dialog_cancel_failure">司机取消订单失败！</string>
+    <string name="order_remind_grab_failure">很遗憾，抢单失败！</string>
+    <string name="order_need_time">用车时间：</string>
+    <string name="order_accident">事故</string>
+    <string name="order_block">路堵</string>
+    <string name="order_title_number">订单号：</string>
+    <string name="order_new_receive">收到新的订单任务，请及时抢单！</string>
+    <!--- *****************************签到签退************************************ -->
+    <string name="sign_edi_hini">请刷卡或者输入卡号登录</string>
+    <string name="sign_out_ok">确认签退</string>
+    <string name="sign_out_current_T">当班时间:</string>
+    <string name="sign_out_star_T">起</string>
+    <string name="sign_out_end_T">终</string>
+    <string name="sign_out_operNumber">运营次数:</string>
+    <string name="sign_out_runKm">行驶里程:</string>
+    <string name="sign_out_carryKm">载客里程:</string>
+    <string name="sign_out_degree">次</string>
+    <string name="sign_in_keyin">登录</string>
+    <string name="sign">考勤</string>
+    <string name="sign_in_success">签到成功</string>
+    <string name="sign_in_fail">签到失败</string>
+    <string name="sign_out_success">签退成功</string>
+    <string name="sign_out_fail">签退失败</string>
+
+    <!--- ***************************** 通话 ************************************ -->
+    <string name="phone_call_keyboard">拨号键盘</string>
+    <string name="phone_call_contact">通信录</string>
+    <string name="phone_call_recording">通话记录</string>
+    <string name="phone_unknown_contact">未知联系人</string>
+    <string name="phone">通话</string>
+    <string name="call">拨号</string>
+    <string name="phone_null">电话号码为空，不能拨出！</string>
+    <string name="phone_permissions_not">该号码你没有拨出权限，请检查！</string>
+    <string name="phone_call_advisory">是否拨通该号码？</string>
+    <string name="phone_permissions_not_call">该来电不具有接听权限，电话已挂断！</string>
+    <!--- ***************************** 消息 ************************************ -->
+    <string name="msg">消息</string>
+    <string name="details_msg">营收详情</string>
+    <string name="answered">已应答</string>
+    <string name="unanswered">未应答</string>
+    <string name="msg_serial_number">序号</string>
+    <string name="msg_time">时间</string>
+    <string name="msg_content">内容</string>
+    <string name="msg_event">事件</string>
+    <string name="msg_answer">应答</string>
+    <string name="msg_number">编号</string>
+    <string name="msg_communique">报文</string>
+    <string name="msg_question">提问</string>
+    <string name="msg_operation">操作</string>
+    <string name="msg_receive_time">下发时间：</string>
+    <string name="msg_communique_content">报文内容：</string>
+    <string name="msg_select_answered">可选答案：</string>
+    <string name="msg_readed">已读</string>
+    <string name="msg_unread">未读</string>
+
+    <!--- ***************************** 运营 ************************************ -->
+    <string name="revenue_driving_mileage">行驶里程：</string>
+    <string name="revenue_bare_mileage">空驶里程：</string>
+    <string name="revenue_wait_time">等待时长：</string>
+    <string name="revenue_times">运营次数：</string>
+    <string name="revenue_bare_rate">空驶率：</string>
+    <string name="revenue_amount">运营总额：</string>
+    <string name="revenue_card_amount">卡收金额：</string>
+    <string name="revenue_history_button">历史营收</string>
+    <string name="revenue_current_button">当班运营</string>
+    <string name="revenue_current">当班运营：</string>
+    <string name="revenue_history">历史营收：</string>
+    <string name="revenue_boarding_time">上车时间：</string>
+    <string name="revenue_driving_time">行驶时间：</string>
+    <string name="revenue_current_times">当前车次：</string>
+    <string name="revenue_travel_type">交易类型：</string>
+    <string name="revenue_wait_timer">等待计时：</string>
+    <string name="revenue_surcharge">附加费：</string>
+    <string name="details_revenue">营收详情</string>
+    <string name="revenue_transactions_cash">现金交易</string>
+    <string name="revenue">营收</string>
+    <!--- ***************************** 评价 ************************************ -->
+    <string name="evaluation_title">请对我们的服务进行评价，谢谢！</string>
+    <string name="evaluation_reminder">请带好自己的随身物品，右门下车</string>
+    <string name="evaluation_mileage">里程</string>
+    <string name="evaluation_order">电召费</string>
+    <string name="evaluation_time">时间</string>
+    <string name="evaluation_surcharge">附加费</string>
+    <string name="evaluation_amount">本单金额</string>
+    <string name="evaluation_yuan_symbol">¥</string>
+    <string name="evaluation">评价</string>
+
+    <string name="rainy">雨天路滑，请小心驾驶！</string>
+    <string name="normal">正常</string>
+    <string name="unusual">不正常</string>
+    <string name="evaluation_hini">请对本次服务进行评价！</string>
+    <string name="evaluation_toast">客人未评价！</string>
+    <string name="evaluation_succeed">评价成功！</string>
+    <string name="evaluation_failed">评价失败！</string>
+
+</resources>

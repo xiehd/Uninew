@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/tv_msg_id"
+            style="@style/SecondaryTile"
+            android:layout_width="0dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginStart="35dp"
+            android:layout_weight="1.5"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/tv_msg_time"
+            style="@style/SecondaryTile"
+            android:layout_width="0dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_weight="3"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="2017-9-16 09:15:00" />
+
+        <TextView
+            android:id="@+id/tv_msg_content"
+            style="@style/SecondaryTile"
+            android:layout_width="0dp"
+            android:layout_marginEnd="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_weight="5.5"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="温馨提示：雨天路滑，请小心驾驶！" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="8dp"
+        android:src="@mipmap/dividing_line" />
+</LinearLayout>

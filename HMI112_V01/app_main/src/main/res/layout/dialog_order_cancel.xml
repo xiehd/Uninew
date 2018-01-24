@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/SecondaryTile"
+        android:gravity="center"
+        android:text="@string/order_dialog_cancel"
+        android:textColor="@color/text_p_color" />
+
+    <RadioGroup
+        android:id="@+id/rg_order_reason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_order_accident"
+            style="@style/ButtonTitleStyle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableLeft="@drawable/answer_selector"
+            android:drawablePadding="10dp"
+            android:padding="3dp"
+            android:text="@string/order_accident" />
+
+        <RadioButton
+            android:id="@+id/rb_order_block"
+            style="@style/ButtonTitleStyle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableLeft="@drawable/answer_selector"
+            android:drawablePadding="10dp"
+            android:padding="3dp"
+            android:text="@string/order_block" />
+
+        <RadioButton
+            android:id="@+id/rb_orders_other"
+            style="@style/ButtonTitleStyle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableLeft="@drawable/answer_selector"
+            android:drawablePadding="10dp"
+            android:padding="3dp"
+            android:text="@string/orders_other_text" />
+    </RadioGroup>
+
+
+</LinearLayout>

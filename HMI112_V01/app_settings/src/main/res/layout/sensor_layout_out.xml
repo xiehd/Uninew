@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="61dp"
+        android:layout_marginTop="11dp">
+
+        <TextView
+            android:id="@+id/sensor_out_text1"
+            style="@style/SecondaryTile"
+            android:layout_centerVertical="true"
+            android:text="@string/mangae_sensor_in_sensore" />
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="170dp"
+            android:layout_toRightOf="@+id/sensor_out_text1"
+            android:text="@string/mangae_sensor_in_purpose" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@mipmap/viewline"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginRight="84dp">
+
+        <TextView
+            android:id="@+id/sensor_out_text2"
+            style="@style/SecondaryTile"
+            android:layout_centerVertical="true"
+            android:text="1" />
+
+        <Spinner
+            android:id="@+id/spinner_sensor_out1"
+            style="@style/setting_spinner"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
+            android:entries="@array/alarm_spinner"></Spinner>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/spinner_sensor_out1"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="9dp"
+            android:src="@mipmap/spinner_img_dwon" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@mipmap/viewline"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginRight="84dp">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:layout_centerVertical="true"
+            android:text="2" />
+
+        <Spinner
+            android:id="@+id/spinner_sensor_out2"
+            style="@style/setting_spinner"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
+            android:entries="@array/alarm_spinner"></Spinner>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/spinner_sensor_out2"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="9dp"
+            android:src="@mipmap/spinner_img_dwon" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@mipmap/viewline"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginRight="84dp">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:layout_centerVertical="true"
+            android:text="3" />
+
+        <Spinner
+            android:id="@+id/spinner_sensor_out3"
+            style="@style/setting_spinner"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
+            android:entries="@array/alarm_spinner"></Spinner>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/spinner_sensor_out3"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="9dp"
+            android:src="@mipmap/spinner_img_dwon" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@mipmap/viewline"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginRight="84dp">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:layout_centerVertical="true"
+            android:text="4" />
+
+        <Spinner
+            android:id="@+id/spinner_sensor_out4"
+            style="@style/setting_spinner"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
+            android:entries="@array/alarm_spinner"></Spinner>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/spinner_sensor_out4"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="9dp"
+            android:src="@mipmap/spinner_img_dwon" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@mipmap/viewline"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="61dp"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/sensor_out_btn_save"
+            style="@style/SecondaryTile"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/base_btn_selector"
+            android:text="@string/mangae_btn_save" />
+    </RelativeLayout>
+
+</LinearLayout>

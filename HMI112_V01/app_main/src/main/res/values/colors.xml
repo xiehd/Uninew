@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+<!--**************更多***********************-->
+    <color name="color_morebg">#191919</color>
+
+    <color name="menuTextUp">#e7e6e7</color>
+    <color name="menuTextDown">#1b6383</color>
+
+    <color name="text_p_color">#ccf1f1f1</color>
+    
+    <color name="text_s_color">#cc0b92e8</color>
+
+    <color name = "text_gray">#686868</color>
+    <color name = "text_red">#cce20625</color>
+
+</resources>

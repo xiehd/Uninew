@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--点击时的图片背景-->
+    <item android:drawable="@mipmap/bt_call_s" android:state_pressed="true" />
+    <item android:drawable="@mipmap/bt_call_s" android:state_selected="true" />
+    <item android:drawable="@mipmap/bt_call_p" />
+</selector>

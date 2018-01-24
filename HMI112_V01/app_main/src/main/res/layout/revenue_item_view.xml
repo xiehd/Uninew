@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp">
+
+    <TextView
+        android:id="@+id/tv_revenue_time"
+        style="@style/SecondaryTile"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="8dp"
+        android:text="2017-9-16 14:30:00" />
+
+    <LinearLayout
+        android:id="@+id/ll_revenue_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_revenue_time"
+        android:layout_alignStart="@+id/tv_revenue_time"
+        android:layout_below="@+id/tv_revenue_time"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/bade" />
+
+        <TextView
+            android:id="@+id/tv_revenue_type"
+            style="@style/ThirdTitle"
+            android:layout_marginLeft="9dp"
+            android:layout_marginStart="9dp"
+            android:gravity="bottom"
+            android:text="@string/revenue_transactions_cash" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_revenue_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ll_revenue_type"
+        android:layout_alignStart="@+id/ll_revenue_type"
+        android:layout_below="@+id/ll_revenue_type"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/revenue_time" />
+
+        <TextView
+            android:id="@+id/tv_revenue_timer"
+            style="@style/ThirdTitle"
+            android:layout_marginLeft="9dp"
+            android:layout_marginStart="9dp"
+            android:gravity="bottom"
+            android:text="30分钟" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_revenue_into"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:src="@mipmap/input" />
+
+    <LinearLayout
+        android:id="@+id/ll_revenue_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/iv_revenue_into"
+        android:layout_toStartOf="@+id/iv_revenue_into"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/rmb_assistor" />
+
+        <TextView
+            android:id="@+id/tv_revenue_amount"
+            style="@style/FirstTitle"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:gravity="bottom"
+            android:text="35.5"
+            android:textColor="@color/text_s_color" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_revenue_mileage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ll_revenue_time"
+        android:layout_alignLeft="@+id/ll_revenue_amount"
+        android:layout_alignStart="@+id/ll_revenue_amount"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/navigation" />
+
+        <TextView
+            android:id="@+id/tv_revenue_mileage"
+            style="@style/ThirdTitle"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:gravity="bottom"
+            android:text="15.8公里" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:src="@mipmap/dividing_line" />
+</RelativeLayout>

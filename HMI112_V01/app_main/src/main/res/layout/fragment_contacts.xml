@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="29dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginStart="40dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp">
+
+            <ImageView
+                android:id="@+id/iv_contacts_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/search_button" />
+
+            <TextView
+                android:id="@+id/tv_contacts_search"
+                style="@style/SecondaryTile"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_toEndOf="@+id/iv_contacts_search"
+                android:layout_toRightOf="@+id/iv_contacts_search"
+                android:text="@string/search"
+                android:textColor="#666666" />
+
+            <EditText
+                android:id="@+id/et_contacts_search"
+                style="@style/SecondaryTile"
+                android:layout_width="match_parent"
+                android:background="@mipmap/search_bg"
+                android:gravity="center_vertical"
+                android:paddingEnd="13dp"
+                android:paddingLeft="13dp"
+                android:paddingRight="13dp"
+                android:paddingStart="13dp"
+                android:textCursorDrawable="@mipmap/cursor_input" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="7dp"
+            android:src="@mipmap/dividing_line" />
+
+        <ListView
+            android:id="@+id/lv_contacts_show"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="7dp"
+            android:divider="#00000000"
+            android:dividerHeight="0dip"
+            android:scrollbars="none">
+
+        </ListView>
+
+    </LinearLayout>
+
+    <com.uninew.car.view.FancyIndexer
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="37dp"
+        app:additionalTipOffset="40dip"
+        app:fontColor="@color/text_s_color"
+        app:maxBezierHeight="150dip"
+        app:maxBezierWidth="180dip"
+        app:maxFontSize="30"
+        app:minFontSize="16"
+        app:tipFontSize="36"
+        app:widthOffset="15dip" />
+
+</RelativeLayout>

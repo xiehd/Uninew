@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_msg_communique"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="105dp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginRight="105dp"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="29dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_msg_communique_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="9dp"
+                android:text="2017-9-21 15:14:00"
+                android:textColor="@color/text_p_color"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:src="@mipmap/dividing_line" />
+
+            <com.uninew.car.view.LineDividerTextView
+                android:id="@+id/tv_msg_communique_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:lineSpacingExtra="19dp"
+                android:text="确认取消该订单吗？请注意，取消可能会影响综合评分!确认取消该订单吗？请注意，取消可能会影响综合评分！"
+                android:textColor="@color/text_p_color"
+                android:textSize="14sp"
+                app:line_divider="@mipmap/dividing_line"
+                app:line_divider_height="1dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_msg_event_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_msg_event_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp"
+                android:layout_marginEnd="105dp"
+                android:layout_marginLeft="105dp"
+                android:layout_marginRight="105dp"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="14dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/msg_receive_time" />
+
+                <TextView
+                    android:id="@+id/tv_msg_event_time"
+                    style="@style/SecondaryTile"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:text="2017-9-21 15:14:00" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_msg_event_time"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:src="@mipmap/dividing_line" />
+
+            <LinearLayout
+                android:id="@+id/ll_msg_event_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp"
+                android:layout_marginEnd="105dp"
+                android:layout_marginLeft="105dp"
+                android:layout_marginRight="105dp"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="14dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/msg_communique_content" />
+
+                <TextView
+                    android:id="@+id/tv_msg_event_content"
+                    style="@style/SecondaryTile"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:text="2017-9-21 15:14:00"
+                    android:textColor="@color/text_gray" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iv_msg_question_line"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:src="@mipmap/dividing_line" />
+
+            <LinearLayout
+                android:id="@+id/ll_msg_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="9dp"
+                android:layout_marginEnd="105dp"
+                android:layout_marginLeft="105dp"
+                android:layout_marginRight="105dp"
+                android:layout_marginStart="105dp"
+                android:layout_marginTop="14dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/msg_select_answered" />
+
+                <RadioGroup
+                    android:id="@+id/rg_msg_answer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb_msg_answer_1"
+                        style="@style/SecondaryTile"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/answer_selector"
+                        android:drawablePadding="10dp"
+                        android:padding="3dp"
+                        android:text="@string/order_accident" />
+
+                    <RadioButton
+                        android:id="@+id/rb_msg_answer_2"
+                        style="@style/SecondaryTile"
+                        android:layout_width="0dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/answer_selector"
+                        android:drawablePadding="10dp"
+                        android:padding="3dp"
+                        android:text="@string/order_block" />
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_msg_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="29dp"
+        android:background="@drawable/btn_seletor"
+        android:text="@string/confirm"
+        android:textColor="@color/text_p_color"
+        android:textSize="14sp" />
+</LinearLayout>

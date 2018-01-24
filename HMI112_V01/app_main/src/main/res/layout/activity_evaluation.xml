@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_background"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/FirstTitle"
+            android:layout_marginLeft="79dp"
+            android:layout_marginStart="79dp"
+            android:text="@string/evaluation_title" />
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:layout_marginLeft="113dp"
+            android:layout_marginStart="113dp"
+            android:layout_marginTop="17dp"
+            android:text="@string/evaluation_reminder"
+            android:textColor="@color/text_gray" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="21dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="27dp"
+            android:background="@mipmap/evaluation_content_bg">
+
+            <TextView
+                android:id="@+id/tv_evaluation_time_title"
+                style="@style/SecondaryTile"
+                android:layout_marginLeft="55dp"
+                android:layout_marginStart="55dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/evaluation_time" />
+
+            <TextView
+                android:id="@+id/tv_evaluation_time_content"
+                style="@style/SecondaryTile"
+                android:layout_alignBottom="@+id/tv_evaluation_time_title"
+                android:layout_marginLeft="166dp"
+                android:layout_marginStart="166dp"
+                android:text="50分钟" />
+
+            <TextView
+                android:id="@+id/tv_evaluation_mileage_title"
+                style="@style/SecondaryTile"
+                android:layout_alignLeft="@+id/tv_evaluation_time_title"
+                android:layout_alignStart="@+id/tv_evaluation_time_title"
+                android:layout_below="@+id/tv_evaluation_time_title"
+                android:layout_marginTop="12dp"
+                android:text="@string/evaluation_mileage" />
+
+            <TextView
+                android:id="@+id/tv_evaluation_mileage_content"
+                style="@style/SecondaryTile"
+                android:layout_alignBottom="@+id/tv_evaluation_mileage_title"
+                android:layout_alignLeft="@+id/tv_evaluation_time_content"
+                android:layout_alignStart="@+id/tv_evaluation_time_content"
+                android:text="26公里" />
+
+            <TextView
+                android:id="@+id/tv_evaluation_surcharge_title"
+                style="@style/SecondaryTile"
+                android:layout_alignLeft="@+id/tv_evaluation_mileage_title"
+                android:layout_alignStart="@+id/tv_evaluation_mileage_title"
+                android:layout_below="@+id/tv_evaluation_mileage_title"
+                android:layout_marginTop="12dp"
+                android:text="@string/evaluation_surcharge" />
+
+            <TextView
+                android:id="@+id/tv_evaluation_surcharge_content"
+                style="@style/SecondaryTile"
+                android:layout_alignBottom="@+id/tv_evaluation_surcharge_title"
+                android:layout_alignLeft="@+id/tv_evaluation_mileage_content"
+                android:layout_alignStart="@+id/tv_evaluation_mileage_content"
+                android:text="0.00元" />
+
+            <TextView
+                android:id="@+id/tv_evaluation_order_title"
+                style="@style/SecondaryTile"
+                android:layout_alignLeft="@+id/tv_evaluation_surcharge_title"
+                android:layout_alignStart="@+id/tv_evaluation_surcharge_title"
+                android:layout_below="@+id/tv_evaluation_surcharge_title"
+                android:layout_marginTop="12dp"
+                android:text="@string/evaluation_order" />
+
+            <TextView
+                android:id="@+id/tv_evaluation_order_content"
+                style="@style/SecondaryTile"
+                android:layout_alignBottom="@+id/tv_evaluation_order_title"
+                android:layout_alignLeft="@+id/tv_evaluation_surcharge_content"
+                android:layout_alignStart="@+id/tv_evaluation_surcharge_content"
+                android:text="0.00元" />
+
+            <TextView
+                android:id="@+id/tv_evaluation_amount_title"
+                style="@style/SecondaryTile"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="45dp"
+                android:layout_marginRight="45dp"
+                android:layout_marginTop="21dp"
+                android:text="@string/evaluation_amount" />
+
+            <TextView
+                android:id="@+id/tv_evaluation_amount_content"
+                style="@style/FirstTitle"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/tv_evaluation_amount_title"
+                android:layout_marginEnd="37dp"
+                android:layout_marginRight="37dp"
+                android:layout_marginTop="33dp"
+                android:text="35.5" />
+
+            <TextView
+                android:id="@+id/tv_evaluation_amount_symbol"
+                style="@style/FirstTitle"
+                android:layout_alignBottom="@+id/tv_evaluation_amount_content"
+                android:layout_alignTop="@+id/tv_evaluation_amount_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@+id/tv_evaluation_amount_content"
+                android:layout_toStartOf="@+id/tv_evaluation_amount_content"
+                android:text="@string/evaluation_yuan_symbol" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:layout_marginTop="43dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_evaluation_satisfied"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="17dp"
+            android:background="@drawable/satisfied_seletor" />
+
+        <Button
+            android:id="@+id/bt_evaluation_commonly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="17dp"
+            android:background="@drawable/commonly_seletor" />
+
+        <Button
+            android:id="@+id/bt_evaluation_dissatisfied"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dissatisfied_seletor" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,306 @@
+<resources>
+    <string name="app_name">更多</string>
+    <string name="app_mangaeActivity">运维管理</string>
+    <string name="app_maintanceActivity">设置维护</string>
+    <string name="app_alarmActivity">报警设置</string>
+    <string name="app_systemActivity">系统设置</string>
+    <string name="app_paramActivity">参数查看</string>
+
+    <!-- 公共部分 -->
+    <string name="txt_yes">是</string>
+    <string name="txt_no">否</string>
+    <string name="txt_emty">无</string>
+    <string name="car_stander_default">默认</string>
+    <string name="car_stander_save">保存</string>
+    <string name="mangae_connect">已连接</string>
+    <string name="mangae_unconnect">未连接</string>
+    <string name="mangae_normal">正常</string>
+    <string name="mangae_unnormal">异常</string>
+
+    <string name="seeting_miao">秒</string>
+
+    <!---   ******************    更多  *************************** -->
+    <string name="more_title">更多</string>
+
+    <string name="more_system_setting">系统设置</string>
+    <string name="more_communtion_setting">设备维护</string>
+    <string name="more_set_setting">运维管理</string>
+    <string name="more_device_miantain">报警记录</string>
+
+    <string name="more_system_voice">系统音量</string>
+    <string name="more_system_light">显示亮度</string>
+    <string name="more_system_wifi_connect">Wifi连接</string>
+    <string name="more_system_host_setting">热点设置</string>
+    <string name="more_system_time_setting">时间设置</string>
+    <string name="more_system_reset">系统重置</string>
+
+    <string name="more_system_voice_text">音量</string>
+    <string name="more_system_touch_text">触屏声</string>
+
+    <string name="more_system_light_text">亮度</string>
+    <string name="more_system_light_swtch">自动调节</string>
+
+    <string name="more_system_wifi_net">网络选取</string>
+
+    <string name="more_system_host_switch">热点开关</string>
+    <string name="more_system_host_name">热点名称</string>
+    <string name="more_system_host_pws">热点密码</string>
+    <string name="more_system_host_number">连接人数</string>
+
+    <string name="more_system_time_dayformat">日期格式</string>
+    <string name="more_system_time_timeformat">时间格式</string>
+    <string name="more_system_time_timezone">时区选择</string>
+    <string name="more_system_time_chektime">校时</string>
+    <string name="more_system_time_settime">修改时间</string>
+    <string name="more_system_time_sateChektime">卫星校时</string>
+    <string name="more_system_time_ntpChektime">NTP校时</string>
+
+    <string name="more_system_reset_date">个人数据</string>
+    <string name="more_system_reset_restore_factory">恢复出厂设置</string>
+    <string name="more_system_reset_restore_factoryItem">清除终端上所有数据</string>
+    <string name="more_system_reset_system_restart">系统重启</string>
+    <string name="more_system_reset_system_restartItem">软件重启，部分外设不断电</string>
+
+    <string name="more_alarm_speed">超速记录</string>
+    <string name="more_alarm_deverce">设备故障</string>
+    <string name="more_alarm_other">其他</string>
+
+    <string name="more_alarm_speed_text1">"超速报警次数:  "</string>
+    <string name="more_alarm_speed_text2">"超速预警次数:  "</string>
+    <string name="more_alarm_speed_text3">"报警次数:  "</string>
+
+    <string name="more_alarm_speed_startime">"开始时间："</string>
+    <string name="more_alarm_speed_continuedtime">"持续时间 :"</string>
+    <string name="more_alarm_speed_endtime">"结束时间 :"</string>
+
+
+    <string name="maintance_version">版本维护</string>
+    <string name="maintance_inpecte">设备巡检</string>
+    <string name="maintance_data">数据管理</string>
+    <string name="maintance_gps">GPS信息</string>
+    <string name="maintance_net">网络信息</string>
+
+    <string name="maintance_inpecte_content">内容</string>
+    <string name="maintance_inpecte_state">状态</string>
+    <string name="maintance_inpecte_dvr">摄像头</string>
+    <string name="maintance_inpecte_taximeter">计价器</string>
+    <string name="maintance_inpecte_carscreen">空车屏</string>
+    <string name="maintance_inpecte_gps">GPS天线</string>
+    <string name="maintance_inpecte_net">通讯模块</string>
+    <string name="maintance_inpecte_power">供电</string>
+    <string name="maintance_inpecte_power_fuiler">欠压</string>
+    <string name="maintance_inpecte_rentserver">出租服务</string>
+    <string name="maintance_inpecte_vedioserver">视频服务</string>
+
+    <string name="maintance_version_model">模块</string>
+    <string name="maintance_version_version">版本</string>
+    <string name="maintance_version_update">升级</string>
+
+    <string name="maintance_version_app">应用</string>
+    <string name="maintance_version_os">系统</string>
+    <string name="maintance_version_mcu">单片机</string>
+    <string name="maintance_version_dvr">摄像机</string>
+    <string name="maintance_version_carsrceen">空车屏</string>
+    <string name="maintance_version_map">地图</string>
+    <string name="maintance_version_gaodemap">高德地图</string>
+
+    <string name="maintance_data_text">操作</string>
+    <string name="maintance_data_driver_msg">司机信息</string>
+    <string name="maintance_data_import">参数导入</string>
+    <string name="maintance_data_export">参数导出</string>
+    <string name="maintance_data_recovery">数据恢复</string>
+    <string name="maintance_data_cleardb">清空数据库</string>
+    <string name="maintance_data_log_export">日志导出</string>
+    <string name="maintance_data_opreta_data">运营数据导出</string>
+    <string name="maintance_data_sign">签到签退导出</string>
+    <string name="maintance_data_alarm">报警数据</string>
+    <string name="maintance_data_text_export">导出</string>
+    <string name="maintance_data_text_clear">清空</string>
+    <string name="maintance_data_redefault">恢复默认</string>
+    <string name="maintance_data_text_import">导入</string>
+
+    <string name="maintance_net_sim">SIM状态</string>
+    <string name="maintance_net_facilitator">服务商</string>
+    <string name="maintance_net_signal">信号强度</string>
+    <string name="maintance_net_roam">是否漫游</string>
+    <string name="maintance_net_type">网络类型</string>
+    <string name="maintance_net_state">网络状态</string>
+    <string name="maintance_net_ip">IP地址</string>
+    <!-- 未知 -->
+    <string name="net_txt_unknowstate">未知</string>
+    <!-- 未插卡 -->
+    <string name="net_txt_nocardstate">未插卡</string>
+    <!-- 锁定 -->
+    <string name="net_txt_lockedstate">锁定</string>
+    <!-- 就绪 -->
+    <string name="net_txt_readystate">就绪 </string>
+    <!-- 中国移动 -->
+    <string name="net_txt_cmobile">中国移动</string>
+    <!-- 中国联通 -->
+    <string name="net_txt_cunicom">中国联通 </string>
+    <!-- 中国电信 -->
+    <string name="net_txt_ctelecommunication">中国电信</string>
+    <!--  可用 -->
+    <string name="net_txt_netok">可用</string>
+    <!--  不可用 -->
+    <string name="net_txt_netno">不可用</string>
+    <!--  检测中 -->
+    <string name="net_txt_netchek">检测中...</string>
+
+
+    <string name="maintance_location_state">定位状态:</string>
+    <string name="maintance_location_Modestate">模块状态:</string>
+    <string name="maintance_location_startState">搜星情况:</string>
+    <string name="maintance_location_longitude">经度:</string>
+    <string name="maintance_location_latitude">纬度:</string>
+    <string name="maintance_location_sateNumber">搜星数:</string>
+    <string name="maintance_location_gpsNumber">有效卫星数:</string>
+
+    <string name="maintance_location_gps">GPS:</string>
+    <string name="maintance_location_beidou">北斗:</string>
+    <string name="maintance_location_ok">已定位</string>
+    <string name="maintance_location_no">未定位</string>
+
+    <string name="mangae_setting_base">基础设置</string>
+    <string name="mangae_setting_parameter">平台设置</string>
+    <string name="mangae_setting_dial">拨号设置</string>
+    <string name="mangae_setting_serialPort">串口设置</string>
+    <string name="mangae_setting_sensor">传感设置</string>
+    <string name="mangae_setting_power">电源设置</string>
+    <string name="mangae_setting_speed">速度设置</string>
+
+
+    <string name="mangae_setting_base_carNumber">车牌号</string>
+    <string name="mangae_setting_base_terminalNumber">终端号</string>
+    <string name="mangae_setting_base_canmpertName">公司名称</string>
+    <string name="mangae_setting_base_dvrNumber">录像主机序列号</string>
+    <string name="mangae_setting_base_time">操作超时退出时间</string>
+    <string name="mangae_setting_base_printer">打印机灵敏度</string>
+    <string name="mangae_setting_base_latch">锁存</string>
+    <string name="mangae_setting_base_pre_time">预录时间</string>
+    <string name="mangae_setting_base_delay_time">延录时间</string>
+    <string name="mangae_setting_base_zhuce">注册</string>
+    <string name="mangae_setting_base_minute">分钟</string>
+
+    <string name="mangae_btn_defult">默认</string>
+    <string name="mangae_btn_save">保存</string>
+
+    <string name="mangae_parameter_domain">域名</string>
+    <string name="mangae_parameter_btnConnect">连接</string>
+    <string name="mangae_parameter_btndisConnect">断开</string>
+    <string name="mangae_parameter_modelText0">无</string>
+    <string name="mangae_parameter_text0">选择</string>
+    <string name="mangae_parameter_text1">平台</string>
+    <string name="mangae_parameter_text2">参数</string>
+    <string name="mangae_parameter_text3">状态</string>
+    <string name="mangae_parameter_rentalServer">服务器地址</string>
+    <string name="mangae_parameter_rentalServerPort">服务器端口</string>
+    <string name="mangae_parameter_Spare_rentalServer">备用服务器地址</string>
+    <string name="mangae_parameter_Spare_rentalServerPort">备用服务器端口</string>
+    <string name="mangae_parameter_rentalServer2">服务器地址2</string>
+    <string name="mangae_parameter_rentalServerPort2">服务器端口2</string>
+    <string name="mangae_parameter_Spare_rentalServer2">备用服务器地址2</string>
+    <string name="mangae_parameter_Spare_rentalServerPort2">备用服务器端口2</string>
+
+
+    <string name="mangae_speed_km">速度单位</string>
+    <string name="mangae_speed_alarmNumber">超速报警值</string>
+    <string name="mangae_speed_time">超速报警持续时间</string>
+    <string name="mangae_speed_pre_alarmNumber">预超速报警值</string>
+    <string name="mangae_speed_pre_time">预超速报警持续时间</string>
+    <string name="mangae_speed_source">速度来源</string>
+
+    <string name="mangae_dial_baud_rate">波特率</string>
+    <string name="mangae_dial_peripheral">外设</string>
+
+    <string name="mangae_power_acc">ACC功能模式</string>
+    <string name="mangae_power_bootmodel">开机模式</string>
+    <string name="mangae_power_noboottime">关机延时</string>
+    <string name="mangae_power_lowpower">低电压保护</string>
+    <string name="mangae_power_acc_battery_low">蓄电池低压保护</string>
+    <string name="mangae_power_recovery_power">恢复开机电压值</string>
+    <string name="mangae_power_battery_alarm">蓄电池欠压报警</string>
+
+    <string name="mangae_sensor_in_text">输入</string>
+    <string name="mangae_sensor_out_text">输出</string>
+    <string name="mangae_sensor_in_sensore">传感器</string>
+    <string name="mangae_sensor_in_enable">使能</string>
+    <string name="mangae_sensor_in_purpose">用途</string>
+    <string name="mangae_sensor_in_level">触发电平</string>
+    <string name="mangae_sensor_in_dvr">录像联动</string>
+    <string name="title_activity_param">ParamActivity</string>
+    <string name="settings_toast_ipformat">IP格式不对:</string>
+    <string name="settings_toast_portformat">输入内容为空或格式有误</string>
+
+    <!--int UnLoginReportIntervalTime=0x0022;//未登录汇报时间间隔-->
+    <!--int AccOffReportIntervalTime=0x0023;//ACC OFF时间间隔（秒）-->
+    <!--int AccOnfReportIntervalTime=0x0024;//ACC ON时间间隔（秒）-->
+    <!--int EmptyReportIntervalTime=0x0025;//空车时间间隔（秒）-->
+    <!--int NonEmptyReportIntervalTime=0x0026;//重车时间间隔（秒）-->
+    <!--int SleepReportIntervalTime=0x0027;//休眠时时间间隔（秒）-->
+    <!--int EmergencyReportIntervalTime=0x0028;//紧急报警时时间间隔（秒）-->
+
+    <string name="heartbeat">心跳发送间隔</string>
+    <string name="tcpresponsetimeout">TCP消息应答超时时间</string>
+    <string name="tcpresendtime">TCP消息重传次数</string>
+    <string name="smsresponsetimeout">SMS消息应答超时时间</string>
+    <string name="smsresendtime">SMS消息重传次数</string>
+    <string name="mainipordomain">主服务器地址</string>
+    <string name="SpareIpOrDomain">备份服务器地址</string>
+    <string name="sparetcpport">备用服务器TCP端口</string>
+    <string name="maintcpport">主服务器TCP端口</string>
+    <string name="locationreportstrateges">位置汇报策略</string>
+    <string name="locationreportplans">位置汇报方案</string>
+    <string name="unloginreportintervaltime">未登录汇报时间间隔（秒）</string>
+    <string name="accoffreportintervaltime">ACC OFF时间间隔（秒）</string>
+    <string name="acconfreportintervaltime">ACC ON时间间隔（秒）</string>
+    <string name="EmptyReportIntervalTime">空车时间间隔（秒）</string>
+    <string name="NonEmptyReportIntervalTime">重车时间间隔（秒）</string>
+    <string name="sleepreportintervaltime">休眠时时间间隔（秒）</string>
+    <string name="emergencyreportintervaltime">紧急报警时时间间隔（秒）</string>
+
+    <string name="unloginreportintervaldistance">未登录距离间隔（米）</string>
+    <string name="accoffreportintervaldistance">ACC OFF距离间隔（米）</string>
+    <string name="acconfreportintervaldistance">ACC ON距离间隔（米）</string>
+    <string name="sleepreportintervaldistance">休眠时距离间隔（米）</string>
+    <string name="emergencyreportintervaldistance">紧急报警时时间间隔（米）</string>
+    <string name="EmptyReportIntervaldistance">空车距离间隔（米）</string>
+    <string name="NonEmptyReportIntervaldistance">重车距离间隔（米）</string>
+    <string name="ReportStratege_Time">定时汇报</string>
+    <string name="ReportStratege_Distance">定距汇报</string>
+    <string name="ReportStratege_TimeAndDistance">定时定距汇报</string>
+    <string name="ReportPlan_ByACC">根据ACC状态</string>
+    <string name="ReportPlan_ByEmpty">根据空车重车状态</string>
+    <string name="ReportPlan_ByLoginAndAcc">根据登录和ACC状态</string>
+    <string name="ReportPlan_ByLoginAndEmpty">根据登录和空重车状态</string>
+
+    <!-- 升级 -->
+    <string name="noCurrentVersionName">无</string>
+    <string name="apkUpdate">升级</string>
+    <string name="apkInstall">安装</string>
+    <string name="apkinstalledAlerdy">已安装</string>
+    <string name="btnOk">确定</string>
+    <string name="btnNo">取消</string>
+    <string name="tipTitle">温馨提示</string>
+    <string name="msgNoSDCard">SD卡不存在</string>
+    <string name="msgNoUpdateFile">没有升级文件</string>
+    <string name="msgIsLastVersin">没有可升级的apk</string>
+    <string name="msgQueryUpdate">正在查询升级信息,请稍后...</string>
+    <string name="msgUpdate">正在升级,请稍后...</string>
+    <string name="updateApkSuccess">升级成功</string>
+    <string name="updateApkFailed">升级失败</string>
+
+    <item name="key_dialog_type" type="id"></item>
+    <item name="key_filePath" type="id"></item>
+
+    <!--导入导出-->
+    <string name="exporting_toast">正在导出中请稍后。。。</string>
+    <string name="importing_toast">正在导入中请稍后。。。</string>
+    <string name="export_success_toast">导出成功！</string>
+    <string name="export_failure_toast">导出失败！</string>
+    <string name="import_success_toast">导入成功！</string>
+    <string name="import_failure_toast">导入失败！</string>
+    <string name="usb_not_exist_toast">未插入U盘！</string>
+    <string name="db_not_data_toast">数据库没有对应的数据</string>
+
+</resources>

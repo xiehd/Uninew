@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_background"
+    android:orientation="vertical"
+    android:paddingEnd="92dp"
+    android:paddingLeft="92dp"
+    android:paddingRight="92dp"
+    app:paddingStart="92dp">
+
+    <TextView
+        android:id="@+id/tv_revenue_details_time"
+        style="@style/SecondaryTile"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="13dp"
+        android:text="2017-09-18 10:59:00" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/dividing_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:layout_gravity="center_vertical"
+            android:text="@string/revenue_boarding_time" />
+
+        <TextView
+            android:id="@+id/tv_revenue_boarding_time"
+            style="@style/SecondaryTile"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="9dp"
+            android:layout_marginStart="9dp"
+            android:text="2017-09-18 10:59:00" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/dividing_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:layout_gravity="center_vertical"
+            android:text="@string/revenue_driving_time" />
+
+        <TextView
+            android:id="@+id/tv_revenue_driving_time"
+            style="@style/SecondaryTile"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="9dp"
+            android:layout_marginStart="9dp"
+            android:text="2017-09-18 10:59:00" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/dividing_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:layout_gravity="center_vertical"
+            android:text="@string/revenue_driving_mileage" />
+
+        <TextView
+            android:id="@+id/tv_revenue_driving_mileage"
+            style="@style/SecondaryTile"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="9dp"
+            android:layout_marginStart="9dp"
+            android:text="20km" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/dividing_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:layout_gravity="center_vertical"
+            android:text="@string/revenue_bare_mileage" />
+
+        <TextView
+            android:id="@+id/tv_revenue_bare_mileage"
+            style="@style/SecondaryTile"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="9dp"
+            android:layout_marginStart="9dp"
+            android:text="20km" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/dividing_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:layout_gravity="center_vertical"
+            android:text="@string/revenue_current_times" />
+
+        <TextView
+            android:id="@+id/tv_revenue_current_times"
+            style="@style/SecondaryTile"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="9dp"
+            android:layout_marginStart="9dp"
+            android:text="12" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/dividing_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:layout_gravity="center_vertical"
+            android:text="@string/revenue_travel_type" />
+
+        <TextView
+            android:id="@+id/tv_revenue_travel_type"
+            style="@style/SecondaryTile"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="9dp"
+            android:layout_marginStart="9dp"
+            android:text="现金交易" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/dividing_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/SecondaryTile"
+                android:layout_gravity="center_vertical"
+                android:text="@string/revenue_wait_timer" />
+
+            <TextView
+                android:id="@+id/tv_revenue_wait_timer"
+                style="@style/SecondaryTile"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="9dp"
+                android:layout_marginStart="9dp"
+                android:text="1小时20分钟" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="13dp"
+            android:layout_marginRight="13dp"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/SecondaryTile"
+                android:layout_gravity="center_vertical"
+                android:text="@string/revenue_surcharge" />
+
+            <TextView
+                android:id="@+id/tv_revenue_details_surcharge"
+                style="@style/SecondaryTile"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="9dp"
+                android:layout_marginStart="9dp"
+                android:text="@string/no" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

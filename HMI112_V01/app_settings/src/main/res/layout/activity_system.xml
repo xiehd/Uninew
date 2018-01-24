@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+        <RadioGroup
+            android:id="@+id/more_system_radiogroup"
+            style="@style/Menu_left_lin">
+
+            <RadioButton
+                android:id="@+id/more_radiobutton_voice"
+                style="@style/Menu_left_textItem"
+                android:button="@null"
+                android:checked="true"
+                android:drawableLeft="@mipmap/system_voice"
+                android:text="@string/more_system_voice"/>
+
+
+            <RadioButton
+                android:id="@+id/more_radiobutton_light"
+                style="@style/Menu_left_textItem"
+                android:button="@null"
+                android:drawableLeft="@mipmap/light_setting"
+                android:text="@string/more_system_light"/>
+
+
+            <RadioButton
+                android:id="@+id/more_radiobutton_wifi"
+                style="@style/Menu_left_textItem"
+                android:button="@null"
+                android:drawableLeft="@mipmap/wifi_connect"
+                android:text="@string/more_system_wifi_connect"/>
+
+
+            <RadioButton
+                android:id="@+id/more_radiobutton_host"
+                style="@style/Menu_left_textItem"
+                android:button="@null"
+                android:drawableLeft="@mipmap/host_setting"
+                android:text="@string/more_system_host_setting"/>
+
+
+            <RadioButton
+                android:id="@+id/more_radiobutton_time"
+                style="@style/Menu_left_textItem"
+                android:button="@null"
+                android:drawableLeft="@mipmap/time_stting"
+                android:text="@string/more_system_time_setting"/>
+
+
+            <RadioButton
+                android:id="@+id/more_radiobutton_reset"
+                style="@style/Menu_left_textItem"
+                android:button="@null"
+                android:drawableLeft="@mipmap/system_update"
+                android:text="@string/more_system_reset"/>
+
+        </RadioGroup>
+
+
+
+        <FrameLayout
+            android:id="@+id/im_framelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

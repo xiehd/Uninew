@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_orders_type"
+            style="@style/SecondaryTile"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:layout_marginTop="7dp"
+            android:text="临时召车" />
+
+        <LinearLayout
+            android:id="@+id/ll_orders_state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/iv_orders_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/cancel" />
+
+            <TextView
+                android:id="@+id/tv_orders_state"
+                style="@style/SecondaryTile"
+                android:layout_marginLeft="9dp"
+                android:layout_marginStart="9dp"
+                android:text="乘客取消" />
+
+            <TextView
+                android:id="@+id/tv_orders_state_time"
+                style="@style/SecondaryTile"
+                android:layout_marginLeft="9dp"
+                android:layout_marginStart="9dp"
+                android:text="(2017-9-13 04:07:00)" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/time" />
+
+            <TextView
+                android:id="@+id/tv_orders_finish_time"
+                style="@style/SecondaryTile"
+                android:layout_marginLeft="9dp"
+                android:layout_marginStart="9dp"
+                android:text="2017-9-13 04:07:00" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:layout_marginStart="13dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginTop="3dp"
+                android:src="@mipmap/navigation" />
+
+            <TextView
+                android:id="@+id/tv_orders_address"
+                style="@style/SecondaryTile"
+                android:layout_marginLeft="9dp"
+                android:layout_marginStart="9dp"
+                android:text="深圳市南山区南头关口二路智恒产业园30栋301" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="7dp"
+            android:src="@mipmap/dividing_line" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_into"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:src="@mipmap/input" />
+
+</RelativeLayout>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="4dp"
+    tools:context="com.uninew.net.main.AlarmTestActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_alarm1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="紧急报警"/>
+
+        <Button
+            android:id="@+id/btn_alarm2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="超速报警"/>
+
+        <Button
+            android:id="@+id/btn_alarm3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="连续驾驶"/>
+
+        <Button
+            android:id="@+id/btn_alarm4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="累计驾驶"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btn_alarm5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="电子围栏"/>
+
+        <Button
+            android:id="@+id/btn_alarm6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="电压不足"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="速度："/>
+
+        <EditText
+            android:id="@+id/btn_speech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="20"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            />
+
+        <Button
+            android:id="@+id/btn_alarm10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="连续驾驶结束"/>
+        <Button
+            android:id="@+id/btn_alarm_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="确认报警"/>
+        <Button
+            android:id="@+id/btn_alarm_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="解除报警"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/btn_alarm7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="主电源掉电"/>
+
+        <Button
+            android:id="@+id/btn_alarm8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="计价器故障"/>
+
+        <Button
+            android:id="@+id/btn_alarm9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="天线未连接"/>
+        <EditText
+            android:id="@+id/edi_lon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="经度"
+            android:layout_marginLeft="2dp"
+            android:inputType="phone"
+            android:imeOptions="actionDone"
+            />
+        <EditText
+            android:id="@+id/edi_lat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="纬度"
+            android:layout_marginLeft="2dp"
+            android:inputType="phone"
+            android:imeOptions="actionDone"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_operter1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="采集运营数据"/>
+
+        <Button
+            android:id="@+id/btn_operter2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:text="上传运营数据"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="运营"/>
+        <EditText
+            android:id="@+id/edi_carnumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="车牌号"
+            android:imeOptions="actionDone"
+            />
+        <EditText
+            android:id="@+id/edi_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="交易金额"
+            android:layout_marginLeft="2dp"
+            android:inputType="phone"
+            android:imeOptions="actionDone"
+            />
+        <EditText
+            android:id="@+id/edi_km"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="计程公里"
+            android:layout_marginLeft="2dp"
+            android:inputType="phone"
+            android:imeOptions="actionDone"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/text_car"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/holo_red_light"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/text_money"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/holo_purple"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/text_km"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:text="数据"
+            android:textColor="@android:color/holo_orange_dark"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

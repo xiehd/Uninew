@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_background"
+    tools:context="com.uninew.maintanence.view.MaintanceActivity">
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="8dp">
+
+        <RadioGroup
+            android:id="@+id/more_mangae_radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/more_radiobutton_base"
+                style="@style/Menu_common_radiobutton"
+                android:button="@null"
+                android:checked="true"
+                android:drawableLeft="@mipmap/mangae_base"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:layout_marginBottom="4dp"
+                android:text="@string/mangae_setting_base"/>
+
+            <RadioButton
+                android:id="@+id/more_radiobutton_parameter"
+                style="@style/Menu_common_radiobutton"
+                android:button="@null"
+                android:drawableLeft="@mipmap/mangae_parameter"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:layout_marginBottom="4dp"
+                android:text="@string/mangae_setting_parameter"/>
+
+            <RadioButton
+                android:id="@+id/more_radiobutton_dial"
+                style="@style/Menu_common_radiobutton"
+                android:button="@null"
+                android:drawableLeft="@mipmap/mangae_dial"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:layout_marginBottom="4dp"
+                android:text="@string/mangae_setting_dial"/>
+            <RadioButton
+                android:id="@+id/more_radiobutton_serialPort"
+                style="@style/Menu_common_radiobutton"
+                android:button="@null"
+                android:drawableLeft="@mipmap/mangae_serial"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:layout_marginBottom="4dp"
+                android:text="@string/mangae_setting_serialPort"/>
+            <RadioButton
+                android:id="@+id/more_radiobutton_sensor"
+                style="@style/Menu_common_radiobutton"
+                android:button="@null"
+                android:drawableLeft="@mipmap/mangae_sensor"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:layout_marginBottom="4dp"
+                android:text="@string/mangae_setting_sensor"/>
+            <RadioButton
+                android:id="@+id/more_radiobutton_power"
+                style="@style/Menu_common_radiobutton"
+                android:button="@null"
+                android:drawableLeft="@mipmap/mangae_power"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:layout_marginBottom="4dp"
+                android:text="@string/mangae_setting_power"/>
+            <RadioButton
+                android:id="@+id/more_radiobutton_speed"
+                style="@style/Menu_common_radiobutton"
+                android:button="@null"
+                android:drawableLeft="@mipmap/mangae_speed"
+                android:gravity="center"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:layout_marginBottom="4dp"
+                android:text="@string/mangae_setting_speed"/>
+
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/im_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+</LinearLayout>

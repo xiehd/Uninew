@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/color_moreBg"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <View
+            style="@style/View_line"></View>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="1dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="10dp"
+            android:paddingTop="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:padding="4dp"
+                android:textColor="@color/textColor"
+                android:text="@string/more_system_time_dayformat"
+                android:textSize="@dimen/textSize"/>
+
+            <Spinner
+                android:id="@+id/more_time_dayformat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:entries="@array/day_format"
+                android:gravity="center"
+                android:textSize="@dimen/textSize"/>
+        </RelativeLayout>
+
+        <View
+            style="@style/View_line">
+        </View>
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="1dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="10dp"
+        android:paddingTop="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="4dp"
+            android:textColor="@color/textColor"
+            android:text="@string/more_system_time_timeformat"
+            android:textSize="@dimen/textSize"/>
+
+        <Spinner
+            android:id="@+id/more_time_timeformat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:entries="@array/time_format"
+            android:gravity="center"
+            android:textSize="@dimen/textSize"/>
+    </RelativeLayout>
+
+        <View
+            style="@style/View_line"></View>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="1dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="10dp"
+            android:paddingTop="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:padding="4dp"
+                android:textColor="@color/textColor"
+                android:text="@string/more_system_time_timezone"
+                android:textSize="@dimen/textSize"/>
+
+            <Spinner
+                android:id="@+id/more_time_timezone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:entries="@array/time_format"
+                android:gravity="center"
+                android:textSize="@dimen/textSize"/>
+        </RelativeLayout>
+
+        <View
+            style="@style/View_line"></View>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/textColor"
+            android:text="@string/more_system_time_chektime"
+            android:textSize="@dimen/textSize"/>
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="1dp"
+        android:paddingLeft="40dp"
+        android:paddingRight="10dp"
+        android:paddingTop="1dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="4dp"
+            android:textColor="@color/textColor"
+            android:text="@string/more_system_time_settime"
+            android:textSize="@dimen/textSize"/>
+
+        <TextView
+            android:id="@+id/more_time_settime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="2017-09-01 10:05:55"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/textSize"/>
+    </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="1dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="10dp"
+            android:paddingTop="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:padding="4dp"
+                android:textColor="@color/textColor"
+                android:text="@string/more_system_time_sateChektime"
+                android:textSize="@dimen/textSize"/>
+
+            <CheckBox
+                android:id="@+id/more_time_seteCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:textSize="@dimen/textSize"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="1dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="10dp"
+            android:paddingTop="1dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:padding="4dp"
+                android:textColor="@color/textColor"
+                android:text="@string/more_system_time_ntpChektime"
+                android:textSize="@dimen/textSize"/>
+
+            <CheckBox
+                android:id="@+id/more_time_ntpCheck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:textSize="@dimen/textSize"/>
+        </RelativeLayout>
+        <View
+            style="@style/View_line"></View>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:textColor="@color/textColor"
+            android:text="@string/car_stander_default"
+            android:textSize="16sp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/textColor"
+            android:text="@string/car_stander_save"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

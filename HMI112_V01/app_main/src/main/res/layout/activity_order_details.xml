@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_orders_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:text="@string/order_title_state" />
+
+        <TextView
+            android:id="@+id/tv_order_show_state"
+            style="@style/SecondaryTile"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/orders_bade_state"
+            android:textColor="#FFFFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_orders_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView"
+        android:layout_marginLeft="55dp"
+        android:layout_marginStart="55dp"
+        android:layout_toEndOf="@+id/ll_orders_time"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:text="@string/order_title_id" />
+
+        <TextView
+            android:id="@+id/tv_order_show_id"
+            style="@style/SecondaryTile"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/order_default_id" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/ll_orders_state"
+        android:layout_marginTop="8dp"
+        android:src="@mipmap/dividing_line" />
+
+    <LinearLayout
+        android:id="@+id/ll_orders_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ll_orders_state"
+        android:layout_alignStart="@+id/ll_orders_state"
+        android:layout_below="@+id/ll_orders_state"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_order_title_time"
+            style="@style/SecondaryTile"
+            android:text="@string/order_title_bade_time" />
+
+        <TextView
+            android:id="@+id/tv_order_show_time"
+            style="@style/SecondaryTile"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/order_default_time" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_orders_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ll_orders_time"
+        android:layout_alignLeft="@+id/ll_orders_id"
+        android:layout_alignStart="@+id/ll_orders_id"
+        android:layout_marginTop="43dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:text="@string/order_title_phone" />
+
+        <TextView
+            android:id="@+id/tv_order_show_phone"
+            style="@style/SecondaryTile"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/order_default_phone" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/ll_orders_time"
+        android:layout_marginTop="8dp"
+        android:src="@mipmap/dividing_line" />
+
+    <LinearLayout
+        android:id="@+id/ll_orders_call_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ll_orders_time"
+        android:layout_alignStart="@+id/ll_orders_time"
+        android:layout_below="@+id/ll_orders_time"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:text="@string/order_title_call_time" />
+
+        <TextView
+            android:id="@+id/tv_order_show_calltime"
+            style="@style/SecondaryTile"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/order_default_time" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_orders_servicecharge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ll_orders_call_time"
+        android:layout_alignLeft="@+id/ll_orders_phone"
+        android:layout_alignStart="@+id/ll_orders_phone"
+        android:layout_marginTop="43dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:text="@string/order_title_servicecharge" />
+
+        <TextView
+            android:id="@+id/tv_order_servicecharge"
+            style="@style/SecondaryTile"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/no" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/ll_orders_call_time"
+        android:layout_marginTop="8dp"
+        android:src="@mipmap/dividing_line" />
+
+    <LinearLayout
+        android:id="@+id/ll_orders_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ll_orders_call_time"
+        android:layout_alignStart="@+id/ll_orders_call_time"
+        android:layout_below="@+id/ll_orders_call_time"
+        android:layout_marginTop="17dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:text="@string/order_title_details" />
+
+        <TextView
+            android:id="@+id/tv_order_details"
+            style="@style/SecondaryTile"
+            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/order_default_address" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_bt_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="29dp"
+        android:layout_marginLeft="137dp"
+        android:layout_marginStart="137dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_order_cancel"
+            style="@style/SecondaryTile"
+            android:background="@drawable/btn_seletor"
+            android:gravity="center"
+            android:text="@string/order_button_cancel" />
+
+        <Button
+            android:id="@+id/bt_order_finish"
+            style="@style/SecondaryTile"
+            android:layout_marginLeft="23dp"
+            android:layout_marginStart="23dp"
+            android:background="@drawable/btn_seletor"
+            android:gravity="center"
+            android:text="@string/order_button_finish" />
+
+        <Button
+            android:id="@+id/bt_order_back"
+            style="@style/SecondaryTile"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/btn_seletor"
+            android:gravity="center"
+            android:text="@string/order_button_back" />
+    </LinearLayout>
+</RelativeLayout>

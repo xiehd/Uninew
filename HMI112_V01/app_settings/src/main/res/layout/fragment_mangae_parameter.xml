@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="22dp"
+            android:paddingTop="13dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_parameter_text0" />
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="50dp"
+                    android:text="@string/mangae_parameter_text1" />
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="155dp"
+                    android:text="@string/mangae_parameter_text2" />
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="280dp"
+                    android:text="@string/mangae_parameter_text3" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <CheckBox
+                    style="@style/CustomCheckboxTheme"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="-4dp"
+                    android:layout_marginLeft="@dimen/mangae_parameter_cheakbox"
+                    android:checked="true"
+                    android:visibility="gone" />
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_parameter_seria"
+                    android:text="@string/mangae_parameter_domain"
+                    android:textColor="@color/left_textColor" />
+
+                <EditText
+                    android:id="@+id/mangae_parameter_edidomain"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_parameter_left"
+                    android:background="@mipmap/spinner_bg"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionDone"
+                    android:inputType="textUri"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="1dp"
+                    android:text="www.baudu.com"
+                    android:textColor="@color/left_textColor" />
+
+                <Button
+                    android:id="@+id/parmeter_text_domain"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="4dp"
+                    android:layout_toRightOf="@+id/mangae_parameter_edidomain"
+                    android:background="@drawable/zhuce_selector"
+                    android:text="@string/mangae_parameter_btnConnect"
+                    android:textColor="@color/textColor_set" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <CheckBox
+                    android:id="@+id/parmeter_chekbox_address1"
+                    style="@style/CustomCheckboxTheme"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="@dimen/mangae_parameter_cheakbox"
+                    android:checked="true" />
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_parameter_seria"
+                    android:text="@string/mangae_parameter_rentalServer"
+                    android:textColor="@color/left_textColor" />
+
+                <EditText
+                    android:id="@+id/mangae_parameter_rentalServer"
+                    style="@style/SecondaryTile"
+                    android:layout_width="100dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_parameter_left"
+                    android:background="@mipmap/spinner_bg"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionNext"
+                    android:inputType="phone"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="1dp"
+                    android:text="192.168.1.1"
+                    android:textColor="@color/left_textColor" />
+
+                <TextView
+                    android:id="@+id/parmeter_text_connect1"
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/mangae_parameter_state"
+                    android:text="@string/mangae_unconnect"
+                    android:textColor="@color/textColor_set" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"
+                android:visibility="gone"></View>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_parameter_seria"
+                    android:text="@string/mangae_parameter_rentalServerPort"
+                    android:textColor="@color/left_textColor" />
+
+                <EditText
+                    android:id="@+id/mangae_parameter_rentalServerPort"
+                    style="@style/SecondaryTile"
+                    android:layout_width="100dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_parameter_left"
+                    android:background="@mipmap/spinner_bg"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="1dp"
+                    android:text="8888"
+                    android:textColor="@color/left_textColor" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"
+                android:visibility="gone"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <CheckBox
+                    android:id="@+id/parmeter_chekbox_beiyongAddress1"
+                    style="@style/CustomCheckboxTheme"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="-4dp"
+                    android:layout_marginLeft="@dimen/mangae_parameter_cheakbox"
+                    android:checked="true"
+                    android:visibility="gone" />
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_parameter_seria"
+                    android:text="@string/mangae_parameter_Spare_rentalServer"
+                    android:textColor="@color/left_textColor"
+                    android:textSize="@dimen/fragment_layout_textSize" />
+
+                <EditText
+                    android:id="@+id/mangae_parameter_Spare_rentalServer"
+                    style="@style/SecondaryTile"
+                    android:layout_width="100dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_parameter_left"
+                    android:background="@mipmap/spinner_bg"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionNext"
+                    android:inputType="phone"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="1dp"
+                    android:text="192.168.1.2"
+                    android:textColor="@color/left_textColor" />
+
+                <TextView
+                    android:id="@+id/parmeter_text_beiyongconnect1"
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/mangae_parameter_state"
+                    android:text="@string/mangae_unconnect"
+                    android:textColor="@color/textColor_set"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"
+                android:visibility="gone"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_parameter_seria"
+                    android:text="@string/mangae_parameter_Spare_rentalServerPort"
+                    android:textColor="@color/left_textColor" />
+
+                <EditText
+                    android:id="@+id/mangae_parameter_Spare_rentalServerPort"
+                    style="@style/SecondaryTile"
+                    android:layout_width="100dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_parameter_left"
+                    android:background="@mipmap/spinner_bg"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="1dp"
+                    android:text="192.168.1.2"
+                    android:textColor="@color/left_textColor" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <CheckBox
+                    android:id="@+id/parmeter_chekbox_address2"
+                    style="@style/CustomCheckboxTheme"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="0dp"
+                    android:layout_marginLeft="@dimen/mangae_parameter_cheakbox" />
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_parameter_seria"
+                    android:text="@string/mangae_parameter_rentalServer2"
+                    android:textColor="@color/left_textColor" />
+
+                <EditText
+                    android:id="@+id/mangae_parameter_rentalServer2"
+                    style="@style/SecondaryTile"
+                    android:layout_width="100dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_parameter_left"
+                    android:background="@mipmap/spinner_bg"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionNext"
+                    android:inputType="phone"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="1dp"
+                    android:text="192.168.1.3"
+                    android:textColor="@color/left_textColor" />
+
+                <TextView
+                    android:id="@+id/parmeter_text_connect2"
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/mangae_parameter_state"
+                    android:text="@string/mangae_unconnect"
+                    android:textColor="@color/textColor_set" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"
+                android:visibility="gone"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_parameter_seria"
+                    android:text="@string/mangae_parameter_rentalServerPort2"
+                    android:textColor="@color/left_textColor" />
+
+                <EditText
+                    android:id="@+id/mangae_parameter_rentalServerPort2"
+                    style="@style/SecondaryTile"
+                    android:layout_width="100dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_parameter_left"
+                    android:background="@mipmap/spinner_bg"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="1dp"
+                    android:text="8887"
+                    android:textColor="@color/left_textColor" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"
+                android:visibility="gone"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <CheckBox
+                    android:id="@+id/parmeter_chekbox_beiyongAddress2"
+                    style="@style/CustomCheckboxTheme"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="-4dp"
+                    android:layout_marginLeft="@dimen/mangae_parameter_cheakbox"
+                    android:visibility="gone" />
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_parameter_seria"
+                    android:text="@string/mangae_parameter_Spare_rentalServer2"
+                    android:textColor="@color/left_textColor" />
+
+                <EditText
+                    android:id="@+id/mangae_parameter_Spare_rentalServer2"
+                    style="@style/SecondaryTile"
+                    android:layout_width="100dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_parameter_left"
+                    android:background="@mipmap/spinner_bg"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionNext"
+                    android:inputType="phone"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="1dp"
+                    android:text="192.168.2.5"
+                    android:textColor="@color/left_textColor" />
+
+                <TextView
+                    android:id="@+id/parmeter_text_beiyongconnect2"
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="@dimen/mangae_parameter_state"
+                    android:text="@string/mangae_unconnect"
+                    android:textColor="@color/textColor_set"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_parameter_seria"
+                    android:text="@string/mangae_parameter_Spare_rentalServerPort2"
+                    android:textColor="@color/left_textColor" />
+
+                <EditText
+                    android:id="@+id/mangae_parameter_Spare_rentalServerPort2"
+                    style="@style/SecondaryTile"
+                    android:layout_width="100dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_parameter_left"
+                    android:background="@mipmap/spinner_bg"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="1dp"
+                    android:text="192.168.2.5"
+                    android:textColor="@color/left_textColor" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"
+                android:visibility="gone"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/parameter_btn_defult"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/base_btn_selector"
+                    android:text="@string/mangae_parameter_btndisConnect"
+                    android:textColor="@color/left_textColor"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/parameter_btn_save"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="90dp"
+                    android:layout_toRightOf="@+id/parameter_btn_defult"
+                    android:background="@drawable/base_btn_selector"
+                    android:text="@string/mangae_parameter_btnConnect"
+                    android:textColor="@color/left_textColor" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

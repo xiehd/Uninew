@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp">
+
+        <EditText
+            android:id="@+id/et_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="173px"
+            android:background="@null"
+            android:hint="@string/sign_edi_hini"
+            android:textColor="#0033cc"
+            android:textColorHint="#666666"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/img_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="172px"
+            android:background="@drawable/sign_edi_del" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
+        android:background="@mipmap/key_bg"
+        android:paddingLeft="10dp"
+        android:paddingTop="7dp">
+
+        <Button
+            android:id="@+id/key_one"
+            style="@style/sign_key_number"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/key_two"
+            style="@style/sign_key_number"
+            android:layout_toRightOf="@+id/key_one"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/key_three"
+            style="@style/sign_key_number"
+            android:layout_toRightOf="@+id/key_two"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/key_four"
+            style="@style/sign_key_number"
+            android:layout_below="@+id/key_one"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/key_five"
+            style="@style/sign_key_number"
+            android:layout_below="@+id/key_two"
+            android:layout_toRightOf="@+id/key_four"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/key_six"
+            style="@style/sign_key_number"
+            android:layout_below="@+id/key_three"
+            android:layout_toRightOf="@+id/key_five"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/key_zero"
+            style="@style/sign_key_number"
+            android:layout_below="@+id/key_xin"
+            android:layout_toRightOf="@+id/key_six"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/key_seven"
+            style="@style/sign_key_number"
+            android:layout_below="@+id/key_four"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/key_eight"
+            style="@style/sign_key_number"
+            android:layout_below="@+id/key_five"
+            android:layout_toRightOf="@+id/key_seven"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/key_nine"
+            style="@style/sign_key_number"
+            android:layout_below="@+id/key_six"
+            android:layout_toRightOf="@+id/key_eight"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/key_jin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/key_zero"
+            android:layout_toRightOf="@+id/key_nine"
+            android:background="@drawable/key_jin_selector"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/key_in"
+           style="@style/FirstTitle"
+            android:layout_below="@+id/key_del"
+            android:layout_toRightOf="@+id/key_zero"
+            android:background="@drawable/key_in_selector"
+            android:gravity="center"
+            android:text="@string/sign_in_keyin"
+            />
+
+        <Button
+            android:id="@+id/key_xin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/key_three"
+            android:background="@drawable/key_xin_selector"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/key_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/key_xin"
+            android:background="@drawable/key_del_selector"
+            android:gravity="center" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="58dp"
+        android:layout_marginTop="5dp">
+
+        <RadioGroup
+            android:id="@+id/sensor_radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/mangae_sensor_in"
+                style="@style/SecondaryTile"
+                android:background="@drawable/sensor_in_selector"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="@string/mangae_sensor_in_text"
+            />
+
+            <RadioButton
+                android:id="@+id/mangae_sensor_out"
+                style="@style/SecondaryTile"
+                android:background="@drawable/sensor_out_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/mangae_sensor_out_text"
+                />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/sensor_layout_in"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="58dp"
+                android:layout_marginTop="11dp">
+
+                <TextView
+                    android:id="@+id/sensor_text1"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_sensor_in_sensore"
+                    />
+
+                <TextView
+                    android:id="@+id/sensor_text2"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="7dp"
+                    android:layout_toRightOf="@+id/sensor_text1"
+                    android:text="@string/mangae_sensor_in_enable"
+                    />
+
+                <TextView
+                    android:id="@+id/sensor_text3"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="44dp"
+                    android:layout_toRightOf="@+id/sensor_text2"
+                    android:text="@string/mangae_sensor_in_purpose"
+                    />
+
+                <TextView
+                    android:id="@+id/sensor_text4"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="52dp"
+                    android:layout_toRightOf="@+id/sensor_text3"
+                    android:text="@string/mangae_sensor_in_level"
+                    />
+
+                <TextView
+                    android:id="@+id/sensor_text5"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="18dp"
+                    android:layout_toRightOf="@+id/sensor_text4"
+                    android:text="@string/mangae_sensor_in_dvr"
+                    />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="58dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="18dp"
+                    android:text="1"
+                />
+
+                <CheckBox
+                    android:id="@+id/sensor_chekbox1"
+                    style="@style/CustomCheckboxTheme"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="55dp"
+                    android:checked="true"/>
+
+                <Spinner
+                    android:id="@+id/spinner_sensor_chekbox_a"
+                    style="@style/setting_spinner"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="17dp"
+                    android:layout_toRightOf="@+id/sensor_chekbox1"
+                    android:entries="@array/alarm_spinner"></Spinner>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/spinner_sensor_chekbox_a"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="9dp"
+                    android:src="@mipmap/spinner_img_dwon"/>
+
+                <Spinner
+                    android:id="@+id/spinner_sensor_chekbox_b"
+                    style="@style/setting_spinner2"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="9dp"
+                    android:layout_toRightOf="@+id/spinner_sensor_chekbox_a"
+                    android:entries="@array/alarm_spinner"></Spinner>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/spinner_sensor_chekbox_b"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="9dp"
+                    android:src="@mipmap/spinner_img_dwon"/>
+
+                <Spinner
+                    android:id="@+id/spinner_sensor_chekbox_c"
+                    style="@style/setting_spinner2"
+                    android:layout_centerVertical="true"
+                    android:dropDownWidth="53dp"
+                    android:layout_marginLeft="9dp"
+                    android:layout_toRightOf="@+id/spinner_sensor_chekbox_b"
+                    android:entries="@array/alarm_spinner"></Spinner>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/spinner_sensor_chekbox_c"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="9dp"
+                    android:src="@mipmap/spinner_img_dwon"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="58dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="18dp"
+                    android:text="2"
+                    />
+
+                <CheckBox
+                    android:id="@+id/sensor_chekbox2"
+                    style="@style/CustomCheckboxTheme"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="55dp"
+                    android:checked="true"/>
+
+                <Spinner
+                    android:id="@+id/spinner_sensor_chekbox2_a"
+                    style="@style/setting_spinner"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="17dp"
+                    android:layout_toRightOf="@+id/sensor_chekbox2"
+                    android:entries="@array/alarm_spinner"></Spinner>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/spinner_sensor_chekbox2_a"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="9dp"
+                    android:src="@mipmap/spinner_img_dwon"/>
+
+                <Spinner
+                    android:id="@+id/spinner_sensor_chekbox2_b"
+                    style="@style/setting_spinner2"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="9dp"
+                    android:layout_toRightOf="@+id/spinner_sensor_chekbox2_a"
+                    android:entries="@array/alarm_spinner"></Spinner>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/spinner_sensor_chekbox2_b"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="9dp"
+                    android:src="@mipmap/spinner_img_dwon"/>
+
+                <Spinner
+                    android:id="@+id/spinner_sensor_chekbox2_c"
+                    style="@style/setting_spinner2"
+                    android:layout_centerVertical="true"
+                    android:dropDownWidth="53dp"
+                    android:layout_marginLeft="9dp"
+                    android:layout_toRightOf="@+id/spinner_sensor_chekbox2_b"
+                    android:entries="@array/alarm_spinner"></Spinner>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/spinner_sensor_chekbox2_c"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="9dp"
+                    android:src="@mipmap/spinner_img_dwon"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="58dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="18dp"
+                    android:text="3"
+                  />
+
+                <CheckBox
+                    android:id="@+id/sensor_chekbox3"
+                    style="@style/CustomCheckboxTheme"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="55dp"/>
+
+                <Spinner
+                    android:id="@+id/spinner_sensor_chekbox3_a"
+                    style="@style/setting_spinner"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="17dp"
+                    android:layout_toRightOf="@+id/sensor_chekbox3"
+                    android:entries="@array/alarm_spinner"></Spinner>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/spinner_sensor_chekbox3_a"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="9dp"
+                    android:src="@mipmap/spinner_img_dwon"/>
+
+                <Spinner
+                    android:id="@+id/spinner_sensor_chekbox3_b"
+                    style="@style/setting_spinner2"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="9dp"
+                    android:layout_toRightOf="@+id/spinner_sensor_chekbox3_a"
+                    android:entries="@array/alarm_spinner"></Spinner>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/spinner_sensor_chekbox3_b"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="9dp"
+                    android:src="@mipmap/spinner_img_dwon"/>
+
+                <Spinner
+                    android:id="@+id/spinner_sensor_chekbox3_c"
+                    style="@style/setting_spinner2"
+                    android:layout_centerVertical="true"
+                    android:dropDownWidth="53dp"
+                    android:layout_marginLeft="9dp"
+                    android:layout_toRightOf="@+id/spinner_sensor_chekbox3_b"
+                    android:entries="@array/alarm_spinner"></Spinner>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/spinner_sensor_chekbox3_c"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="9dp"
+                    android:src="@mipmap/spinner_img_dwon"/>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="58dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="18dp"
+                    android:text="4"
+                   />
+
+                <CheckBox
+                    android:id="@+id/sensor_chekbox4"
+                    style="@style/CustomCheckboxTheme"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="55dp"/>
+
+                <Spinner
+                    android:id="@+id/spinner_sensor_chekbox4_a"
+                    style="@style/setting_spinner"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="17dp"
+                    android:layout_toRightOf="@+id/sensor_chekbox4"
+                    android:entries="@array/alarm_spinner"></Spinner>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/spinner_sensor_chekbox4_a"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="9dp"
+                    android:src="@mipmap/spinner_img_dwon"/>
+
+                <Spinner
+                    android:id="@+id/spinner_sensor_chekbox4_b"
+                    style="@style/setting_spinner2"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="9dp"
+                    android:layout_toRightOf="@+id/spinner_sensor_chekbox4_a"
+                    android:entries="@array/alarm_spinner"></Spinner>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/spinner_sensor_chekbox4_b"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="9dp"
+                    android:src="@mipmap/spinner_img_dwon"/>
+
+                <Spinner
+                    android:id="@+id/spinner_sensor_chekbox4_c"
+                    style="@style/setting_spinner2"
+                    android:layout_centerVertical="true"
+                    android:dropDownWidth="53dp"
+                    android:layout_marginLeft="9dp"
+                    android:layout_toRightOf="@+id/spinner_sensor_chekbox4_b"
+                    android:entries="@array/alarm_spinner"></Spinner>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/spinner_sensor_chekbox4_c"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="9dp"
+                    android:src="@mipmap/spinner_img_dwon"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="26dp"
+                android:layout_marginRight="61dp"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/sensor_in_btn_save"
+                    style="@style/SecondaryTile"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/base_btn_selector"
+                    android:text="@string/mangae_btn_save"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sensor_layout_out"
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="match_parent">
+
+            <include
+                layout="@layout/sensor_layout_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"></include>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

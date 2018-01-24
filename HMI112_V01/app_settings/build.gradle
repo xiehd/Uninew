@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '27.0.3'
+
+    defaultConfig {
+        applicationId "com.uninew.settings"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 112
+        versionName "112"
+
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile project(':lib_db')
+    compile project(':lib_location')
+    compile files('libs/hellocharts-library-1.5.8.jar')
+    compile files('libs/uninew_communication.jar')
+    compile files('libs/uninew_update.jar')
+}

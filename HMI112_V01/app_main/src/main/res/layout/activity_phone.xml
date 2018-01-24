@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_background"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_phone_keyboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/btn_seletor"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="3dp"
+                android:src="@mipmap/keyboard" />
+
+            <TextView
+                style="@style/ButtonTitleStyle"
+                android:layout_marginBottom="6dp"
+                android:text="@string/phone_call_keyboard" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_phone_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/btn_seletor"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="3dp"
+                android:src="@mipmap/contact" />
+
+            <TextView
+                style="@style/ButtonTitleStyle"
+                android:layout_marginBottom="6dp"
+                android:text="@string/phone_call_contact" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_phone_recording"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/btn_seletor"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="3dp"
+                android:src="@mipmap/recording" />
+
+            <TextView
+                style="@style/ButtonTitleStyle"
+                android:layout_marginBottom="6dp"
+                android:text="@string/phone_call_recording" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.uninew.car.view.NoScrollViewPager
+        android:id="@+id/vp_show_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="29dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginStart="19dp">
+
+    </com.uninew.car.view.NoScrollViewPager>
+
+</LinearLayout>

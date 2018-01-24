@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="4dp"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/txt_LED_NO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/background_select"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:text="LED屏打开"/>
+
+        <Button
+            android:id="@+id/txt_LED_OFF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/background_select"
+            android:layout_weight="1"
+            android:visibility="gone"
+            android:text="LED屏关闭"/>
+
+        <Button
+            android:id="@+id/txt_LED_sendmsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/background_select"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:text="LED发送信息"/>
+        <EditText
+            android:id="@+id/edi_leddate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="请输入" />
+
+        <Button
+            android:id="@+id/led_quryState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/background_select"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:text="状态查询"/>
+
+        <Button
+            android:id="@+id/led_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/background_select"
+            android:textSize="12sp"
+            android:onClick="onClick"
+            android:text="复位"/>
+
+        <Button
+            android:id="@+id/led_operateState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/background_select"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:onClick="onClick"
+            android:text="运营状态"/>
+        <Button
+            android:id="@+id/led_starState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/background_select"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:onClick="onClick"
+            android:text="星级状态"/>
+        <Button
+            android:id="@+id/led_CJalarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/background_select"
+            android:textSize="12sp"
+            android:onClick="onClick"
+            android:text="报警"/>
+        <Button
+            android:id="@+id/led_CJalarmData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/background_select"
+            android:textSize="12sp"
+            android:onClick="onClick"
+            android:text="报警内容"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+
+
+        <Button
+            android:id="@+id/led_baudrate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/background_select"
+            android:onClick="onClick"
+            android:text="设置波特率"/>
+
+        <Button
+            android:id="@+id/led_bid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/background_select"
+            android:onClick="onClick"
+            android:text="防伪密标"/>
+
+        <Button
+            android:id="@+id/led_nightMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/background_select"
+            android:textSize="12sp"
+            android:text="夜间模式"/>
+
+        <Button
+            android:id="@+id/led_nightdata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:onClick="onClick"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/background_select"
+            android:textSize="12sp"
+            android:text="夜间参数设置"/>
+
+        <Button
+            android:id="@+id/led_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/background_select"
+            android:textSize="12sp"
+            android:onClick="onClick"
+            android:text="升级"/>
+        <Button
+            android:id="@+id/led_CJState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/background_select"
+            android:textSize="12sp"
+            android:onClick="onClick"
+            android:text="LED2"/>
+    </LinearLayout>
+
+</LinearLayout>

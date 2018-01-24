@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_background"
+    android:orientation="horizontal"
+    tools:context="com.uninew.alarm.view.AlarmActivity">
+
+    <RelativeLayout
+        android:layout_width="82dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="43dp">
+
+        <RadioGroup
+            android:id="@+id/more_alarm_radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/more_radiobutton_speed"
+                style="@style/Menu_common_radiobutton"
+                android:button="@null"
+                android:checked="true"
+                android:paddingTop="10dp"
+                android:paddingBottom="4dp"
+                android:drawableTop="@mipmap/chaosu"
+                android:layout_marginBottom="20dp"
+                android:text="@string/more_alarm_speed"/>
+
+
+            <RadioButton
+                android:id="@+id/more_radiobutton_device"
+                style="@style/Menu_common_radiobutton"
+                android:button="@null"
+                android:paddingTop="10dp"
+                android:paddingBottom="4dp"
+                android:layout_marginBottom="20dp"
+                android:drawableTop="@mipmap/device_fauil"
+                android:text="@string/more_alarm_deverce"/>
+
+
+            <RadioButton
+                android:id="@+id/more_radiobutton_other"
+                style="@style/Menu_common_radiobutton"
+                android:button="@null"
+                android:paddingTop="10dp"
+                android:paddingBottom="4dp"
+                android:drawableTop="@mipmap/alarm_other"
+                android:text="@string/more_alarm_other"/>
+
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/im_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>

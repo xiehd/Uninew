@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingEnd="41dp"
+    android:paddingLeft="41dp"
+    android:paddingRight="41dp"
+    android:paddingStart="41dp"
+    android:paddingTop="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:layout_gravity="center_vertical"
+            android:text="@string/order_title_number" />
+
+        <TextView
+            android:id="@+id/tv_order_title_number"
+            style="@style/SecondaryTile"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="9dp"
+            android:layout_marginStart="9dp"
+            android:text="1234565789" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:gravity="top"
+            android:text="@string/order_title_details" />
+
+        <TextView
+            android:id="@+id/tv_order_answer_details"
+            style="@style/SecondaryTile"
+            android:layout_marginLeft="9dp"
+            android:layout_marginStart="9dp"
+            android:gravity="top"
+            android:text="从深圳市南山区南头关口二路智恒产业园30栋301到深圳市南山区南头关口二路智恒产业园30栋301" />
+    </LinearLayout>
+
+</LinearLayout>

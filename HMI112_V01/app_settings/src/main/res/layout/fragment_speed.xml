@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="12dp">
+
+        <Spinner
+            android:id="@+id/speed_spinner"
+            style="@style/setting_spinner"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:entries="@array/alarm_spinner"></Spinner>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/speed_spinner"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="9dp"
+            android:src="@mipmap/spinner_img_dwon" />
+
+        <TextView
+            android:id="@+id/alarm_speed1"
+            style="@style/SecondaryTile"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="24dp"
+            android:layout_toRightOf="@+id/speed_spinner"
+            android:text="@string/more_alarm_speed_text1" />
+
+        <TextView
+            android:id="@+id/alarm_speed2"
+            style="@style/SecondaryTile"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="152dp"
+            android:layout_toRightOf="@+id/speed_spinner"
+            android:text="@string/more_alarm_speed_text2" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="8dp"
+        android:background="@mipmap/viewline"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp">
+
+        <ListView
+            android:id="@+id/alarm_speed_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@mipmap/viewline"
+            android:dividerHeight="1px"
+            android:listSelector="@android:color/transparent"></ListView>
+    </RelativeLayout>
+</LinearLayout>

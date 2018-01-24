@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_background"
+    tools:context="com.uninew.car.sign.view.SignActivity">
+
+    <LinearLayout
+        android:id="@+id/sign_drever_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="26dp"
+        android:background="@mipmap/driver_message_background"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/sign_driver_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@mipmap/avatar_background"
+            android:src="@mipmap/avatar" />
+
+        <TextView
+            android:id="@+id/sign_drever_name"
+            style="@style/SecondaryTile"
+            android:layout_below="@+id/sign_driver_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            android:text="张三丰" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/sign_out_ok"
+            style="@style/SecondaryTile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="11dp"
+            android:background="@drawable/sign_out_selector"
+            android:gravity="center"
+            android:text="@string/sign_out_ok" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="37dp"
+        android:layout_toRightOf="@+id/sign_drever_msg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="6dp">
+
+            <ImageView
+                android:id="@+id/sign_rmb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/rmb" />
+
+            <TextView
+                android:id="@+id/sign_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10sp"
+                android:layout_toRightOf="@+id/sign_rmb"
+                android:text="0.00"
+                android:textColor="#CCCCFF"
+                android:textSize="19dp" />
+
+            <TextView
+                style="@style/SecondaryTile"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/sign_money"
+                android:text="@string/yuan" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@mipmap/signview"></View>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp">
+
+            <TextView
+                style="@style/SecondaryTile"
+                android:layout_marginLeft="26dp"
+                android:text="@string/sign_out_current_T" />
+
+            <TextView
+                android:id="@+id/sign_out_starTime"
+                style="@style/SecondaryTile"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="56dp"
+                android:text="08-03 06:00" />
+
+            <TextView
+                style="@style/SecondaryTile"
+                android:layout_alignBaseline="@+id/sign_out_starTime"
+                android:layout_marginRight="3dp"
+                android:layout_toLeftOf="@+id/sign_out_starTime"
+                android:text="@string/sign_out_star_T" />
+
+            <TextView
+                android:id="@+id/sign_out_endTime"
+                style="@style/SecondaryTile"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/sign_out_starTime"
+                android:layout_marginRight="56dp"
+                android:layout_marginTop="11dp"
+                android:text="08-03 22:00" />
+
+            <TextView
+                style="@style/SecondaryTile"
+                android:layout_alignBaseline="@+id/sign_out_endTime"
+                android:layout_below="@+id/sign_out_starTime"
+                android:layout_marginRight="3dp"
+                android:layout_toLeftOf="@+id/sign_out_endTime"
+                android:text="@string/sign_out_end_T" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:background="@mipmap/signview"></View>
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp">
+
+            <TextView
+                style="@style/SecondaryTile"
+                android:layout_marginLeft="26dp"
+                android:text="@string/sign_out_operNumber" />
+
+            <TextView
+                android:id="@+id/text_ci"
+                style="@style/SecondaryTile"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="56dp"
+                android:text="@string/sign_out_degree" />
+
+            <TextView
+                android:id="@+id/sign_out_operNumber"
+                style="@style/SecondaryTile"
+                android:layout_alignBaseline="@+id/text_ci"
+                android:layout_marginRight="3dp"
+                android:layout_toLeftOf="@+id/text_ci"
+                android:text="15" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1px"
+            android:background="@mipmap/signview"></View>
+
+        <RelativeLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp">
+
+            <TextView
+                style="@style/SecondaryTile"
+                android:layout_marginLeft="26dp"
+                android:text="@string/sign_out_runKm" />
+
+            <TextView
+                android:id="@+id/text_km"
+                style="@style/SecondaryTile"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="56dp"
+                android:text="@string/kilometre" />
+
+            <TextView
+                android:id="@+id/sign_out_runKm"
+                style="@style/SecondaryTile"
+                android:layout_alignBaseline="@+id/text_km"
+                android:layout_marginRight="1dp"
+                android:layout_toLeftOf="@+id/text_km"
+                android:text="35" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:background="@mipmap/signview"></View>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp">
+
+            <TextView
+                style="@style/SecondaryTile"
+                android:layout_marginLeft="26dp"
+                android:text="@string/sign_out_carryKm" />
+
+            <TextView
+                android:id="@+id/text_km2"
+                style="@style/SecondaryTile"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="56dp"
+                android:text="@string/kilometre" />
+
+            <TextView
+                android:id="@+id/sign_out_carryKm"
+                style="@style/SecondaryTile"
+                android:layout_alignBaseline="@+id/text_km2"
+                android:layout_marginRight="1dp"
+                android:layout_toLeftOf="@+id/text_km2"
+                android:text="35" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

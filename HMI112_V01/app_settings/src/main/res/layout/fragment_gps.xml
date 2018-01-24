@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:text="60"
+            android:textColor="#686868"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="30dp"
+            android:text="30"
+            android:textColor="#686868"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="65dp"
+            android:text="0"
+            android:textColor="#686868"
+            android:textSize="12sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginLeft="43dp"
+            android:layout_marginRight="60dp"
+            android:background="@mipmap/gpsbiaoge"
+            android:paddingBottom="2dp">
+
+            <lecho.lib.hellocharts.view.ColumnChartView
+                android:id="@+id/gps_chart"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="21dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="100dp"
+                android:padding="5dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true">
+
+                <TextView
+                    android:id="@+id/g_snr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="SNR"
+                    android:textColor="#686868"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/g_snr"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="-4dp"
+                    android:layout_toRightOf="@+id/g_snr"
+                    android:text="00"
+                    android:textColor="#686868"
+                    android:textSize="9sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/g_snr"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="-4dp"
+                    android:layout_toRightOf="@+id/g_snr"
+                    android:text="10"
+                    android:textColor="#686868"
+                    android:textSize="9sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/g_snr"
+                    android:layout_marginLeft="90dp"
+                    android:layout_marginTop="-4dp"
+                    android:layout_toRightOf="@+id/g_snr"
+                    android:text="20"
+                    android:textColor="#686868"
+                    android:textSize="9sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/g_snr"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="-4dp"
+                    android:layout_toRightOf="@+id/g_snr"
+                    android:text="35"
+                    android:textColor="#686868"
+                    android:textSize="9sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/g_snr"
+                    android:layout_marginLeft="170dp"
+                    android:layout_marginTop="-4dp"
+                    android:layout_toRightOf="@+id/g_snr"
+                    android:text="40"
+                    android:textColor="#686868"
+                    android:textSize="9sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/g_snr"
+                    android:layout_marginLeft="266dp"
+                    android:layout_marginTop="-4dp"
+                    android:layout_toRightOf="@+id/g_snr"
+                    android:text="99"
+                    android:textColor="#686868"
+                    android:textSize="9sp" />
+
+                <TextView
+                    android:layout_width="122dp"
+                    android:layout_height="6dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="43dp"
+                    android:background="@color/gps_color2" />
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="6dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="84dp"
+                    android:background="@color/gps_color2" />
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="6dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="125dp"
+                    android:background="@color/gps_color2" />
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="6dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="166dp"
+                    android:background="@color/gps_color4" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="6dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="207dp"
+                    android:background="@color/gps_color4" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="43dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="40dp">
+
+            <TextView
+                android:id="@+id/gps_text1"
+                style="@style/SecondaryTile"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/maintance_location_state" />
+
+            <TextView
+                android:id="@+id/gps_location_state"
+                style="@style/SecondaryTile"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/gps_text1"
+                android:text="@string/net_txt_netchek" />
+
+            <TextView
+                android:id="@+id/gps_text1Mode"
+                style="@style/SecondaryTile"
+                android:layout_toLeftOf="@+id/gps_location_Modestate"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:text="@string/maintance_location_Modestate" />
+
+            <TextView
+                android:id="@+id/gps_location_Modestate"
+                style="@style/SecondaryTile"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:text="@string/mangae_unnormal" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@mipmap/viewline"></View>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:id="@+id/gps_text2"
+                style="@style/SecondaryTile"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/maintance_location_longitude" />
+
+            <TextView
+                android:id="@+id/gps_location_longt"
+                style="@style/SecondaryTile"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/gps_text2"
+                android:text="0.0000000" />
+
+            <TextView
+                style="@style/SecondaryTile"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@+id/gps_location_lat"
+                android:text="@string/maintance_location_latitude" />
+
+            <TextView
+                android:id="@+id/gps_location_lat"
+                style="@style/SecondaryTile"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="0.0000000" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@mipmap/viewline"></View>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="10dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/gps_text3"
+                style="@style/SecondaryTile"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/maintance_location_gps" />
+
+            <TextView
+                android:id="@+id/gps_location_gps"
+                style="@style/SecondaryTile"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/gps_text3"
+                android:text="0.0000000" />
+
+            <TextView
+                style="@style/SecondaryTile"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@+id/gps_location_beidou"
+                android:text="@string/maintance_location_beidou" />
+
+            <TextView
+                android:id="@+id/gps_location_beidou"
+                style="@style/SecondaryTile"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="0.0000000" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@mipmap/viewline"
+            android:visibility="gone"></View>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="10dp">
+
+            <TextView
+                android:id="@+id/gps_text4_1"
+                style="@style/SecondaryTile"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="false"
+                android:text="@string/maintance_location_startState" />
+
+            <TextView
+                android:id="@+id/gps_text4_2"
+                style="@style/SecondaryTile"
+                android:layout_toRightOf="@+id/gps_text4_1"
+                android:layout_centerVertical="false"
+                android:layout_marginLeft="8dp"
+                android:text="@string/maintance_location_gps" />
+
+            <TextView
+                android:id="@+id/gps_location_gpsNumber"
+                style="@style/SecondaryTile"
+                android:layout_centerVertical="false"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/gps_text4_2"
+                android:text="0.0" />
+
+            <TextView
+                android:id="@+id/gps_text4"
+                style="@style/SecondaryTile"
+                android:layout_toRightOf="@+id/gps_text4_1"
+                android:layout_below="@+id/gps_text4_2"
+                android:layout_marginLeft="8dp"
+                android:text="@string/maintance_location_sateNumber" />
+
+            <TextView
+                android:id="@+id/gps_location_sateNumber"
+                style="@style/SecondaryTile"
+                android:layout_marginLeft="8dp"
+                android:layout_below="@+id/gps_text4_2"
+                android:layout_toRightOf="@+id/gps_text4"
+                android:text="0.0" />
+
+            <TextView
+                style="@style/SecondaryTile"
+                android:layout_centerVertical="false"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@+id/gps_location_BDNumber"
+                android:text="@string/maintance_location_beidou" />
+
+            <TextView
+                android:id="@+id/gps_location_BDNumber"
+                style="@style/SecondaryTile"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="false"
+                android:text="0.0" />
+
+            <TextView
+                style="@style/SecondaryTile"
+                android:layout_centerVertical="false"
+                android:layout_marginRight="8dp"
+                android:layout_below="@+id/gps_location_BDNumber"
+                android:layout_toLeftOf="@+id/gps_location_allNumber"
+                android:text="@string/maintance_location_gpsNumber" />
+
+            <TextView
+                android:id="@+id/gps_location_allNumber"
+                style="@style/SecondaryTile"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/gps_location_BDNumber"
+                android:layout_centerVertical="true"
+                android:text="0.0" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@mipmap/viewline"></View>
+
+    </LinearLayout>
+
+</LinearLayout>

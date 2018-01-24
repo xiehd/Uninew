@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="color_moreBg">#ffffff</color>
+    <color name="textColor">#191919</color>
+
+    <color name="textColor_set">#FFFAF0</color>
+
+    <color name="menuTextUp">#ffffff</color>
+    <color name="menuTextDown">#1b6383</color>
+
+    <color name="menuTextUp_left">#191919</color>
+    <color name="menuTextDown_left">#1b6383</color>
+
+    <color name="btndown">#7B68EE</color>
+    <color name="btnup">#E6E6FA</color>
+
+    <color name="left_textColor">#ccf1f1f1</color>
+
+    <color name="gps_color1">#cc0000</color>
+    <color name="gps_color2">#FF8C00</color>
+    <color name="gps_color3">#FFFF00</color>
+    <color name="gps_color4">#3CB371</color>
+    <color name="gps_color5">#0033ff</color>
+
+    <color name="gridview_one">#303030</color>
+    <color name="white"> #FFFFFF</color>
+    <color name="grey"> #ebebeb</color>
+    <color name="black"> #000000</color>
+    <color name="blue">#00ffff</color>
+    <color name="gridview_selector">#1f627f</color>
+
+
+</resources>

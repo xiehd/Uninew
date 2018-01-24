@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="22dp"
+    android:paddingTop="13dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="60dp">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/maintance_version_model" />
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/maintance_version_version" />
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="@string/maintance_version_update" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@mipmap/viewline"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="68dp">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/maintance_version_app" />
+
+        <TextView
+            android:id="@+id/version_app"
+            style="@style/SecondaryTile"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="APP_V01.02.05"
+            android:textColor="@color/textColor_set" />
+
+        <ImageView
+            android:id="@+id/version_app_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/version_update_selector" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@mipmap/viewline"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="68dp">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/maintance_version_os" />
+
+        <TextView
+            android:id="@+id/version_os"
+            style="@style/SecondaryTile"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="APP_V01.02.05"
+            android:textColor="@color/textColor_set" />
+
+        <ImageView
+            android:id="@+id/version_os_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/version_update_selector" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@mipmap/viewline"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="68dp">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/maintance_version_mcu" />
+
+        <TextView
+            android:id="@+id/version_mcu"
+            style="@style/SecondaryTile"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="APP_V01.02.05"
+            android:textColor="@color/textColor_set" />
+
+        <ImageView
+            android:id="@+id/version_mcu_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/version_update_selector" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@mipmap/viewline"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="68dp">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/maintance_version_dvr" />
+
+        <TextView
+            android:id="@+id/version_dvr"
+            style="@style/SecondaryTile"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="APP_V01.02.05"
+            android:textColor="@color/textColor_set" />
+
+        <ImageView
+            android:id="@+id/version_dvr_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/version_update_selector" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@mipmap/viewline"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="68dp">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/maintance_version_carsrceen" />
+
+        <TextView
+            android:id="@+id/version_carsrceen"
+            style="@style/SecondaryTile"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="APP_V01.02.05"
+            android:textColor="@color/textColor_set" />
+
+        <ImageView
+            android:id="@+id/version_carsrceen_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/version_update_selector" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@mipmap/viewline"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="68dp">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/maintance_version_map" />
+
+        <TextView
+            android:id="@+id/version_map"
+            style="@style/SecondaryTile"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="APP_V01.02.05"
+            android:textColor="@color/textColor_set" />
+
+        <ImageView
+            android:id="@+id/version_map_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/version_update_selector" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@mipmap/viewline"></View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="68dp">
+
+        <TextView
+            style="@style/SecondaryTile"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/maintance_version_gaodemap" />
+
+        <TextView
+            android:id="@+id/version_gaodemap"
+            style="@style/SecondaryTile"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="APP_V01.02.05"
+            android:textColor="@color/textColor_set" />
+
+        <ImageView
+            android:id="@+id/version_gaodemap_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:src="@drawable/version_update_selector" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@mipmap/viewline"
+        android:visibility="gone"></View>
+
+</LinearLayout>

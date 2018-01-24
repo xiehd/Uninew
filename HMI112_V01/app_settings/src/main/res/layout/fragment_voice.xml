@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingLeft="13dp"
+              android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="17dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/mttext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="29dp"
+            android:text="@string/more_system_touch_text"
+            android:textColor="#f1f1f1"
+            android:textSize="16sp"/>
+
+        <Switch
+            android:id="@+id/more_system_switch"
+            style="@style/voice_switch"
+            android:checked="true"
+            android:layout_marginRight="41dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+
+            />
+        <View
+            android:layout_width="match_parent"
+            android:background="@mipmap/viewline"
+            android:layout_below="@+id/more_system_switch"
+            android:layout_marginTop="8dp"
+            android:layout_height="1px"></View>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/myvoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="29dp"
+            android:textColor="#f1f1f1"
+            android:text="@string/more_system_voice_text"
+            android:textSize="16sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/myvoice"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginRight="41dp">
+
+            <ImageView
+                android:id="@+id/voice_image_sub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/seekbar_sub_selector"/>
+
+            <SeekBar
+                android:id="@+id/more_voice_seekbar"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@+id/voice_image_sub"
+                android:maxHeight="2dp"
+                android:max="100"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:progress="0"
+                android:progressDrawable="@drawable/po_seekbar"
+                android:thumb="@drawable/seekbar_thumb"/>
+
+            <ImageView
+                android:id="@+id/voice_image_add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@+id/more_voice_seekbar"
+                android:src="@drawable/seekbar_add_selector"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

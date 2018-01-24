@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/prompt_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_dialog_titles"
+        style="@style/SecondaryTile"
+        android:layout_marginBottom="11dp"
+        android:layout_marginTop="11dp"
+        android:text="@string/prompt" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_dialog_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_dialog_content"
+            style="@style/SecondaryTile"
+            android:layout_marginEnd="27dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:layout_marginStart="27dp"
+            android:gravity="center"
+            android:text="@string/prompt" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_dialog_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="11dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_dialog_timer_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@mipmap/circularity_button"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_dialog_timer_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dialog_grab"
+                android:textColor="@color/text_p_color"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tv_dialog_times"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textColor="#686868"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt_dialog_left"
+            style="@style/ButtonTitleStyle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_seletor"
+            android:text="@string/confirm"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/bt_dialog_right"
+            style="@style/ButtonTitleStyle"
+            android:layout_width="0dp"
+            android:layout_marginLeft="51dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_seletor"
+            android:text="@string/back"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_background"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_orders_bade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/btn_seletor"
+            android:gravity="center_horizontal"
+            android:onClick="onChangeShowOrder"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="3dp"
+                android:src="@mipmap/bade_s" />
+
+            <TextView
+                style="@style/ButtonTitleStyle"
+                android:layout_marginBottom="6dp"
+                android:text="@string/orders_bade_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_orders_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/btn_seletor"
+            android:gravity="center_horizontal"
+            android:onClick="onChangeShowOrder"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="3dp"
+                android:src="@mipmap/finish_p" />
+
+            <TextView
+                style="@style/ButtonTitleStyle"
+                android:layout_marginBottom="6dp"
+                android:text="@string/orders_finish_text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_orders_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/btn_seletor"
+            android:gravity="center_horizontal"
+            android:onClick="onChangeShowOrder"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="3dp"
+                android:src="@mipmap/other_p" />
+
+            <TextView
+                style="@style/ButtonTitleStyle"
+                android:layout_marginBottom="6dp"
+                android:text="@string/orders_other_text" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_show_orders"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="27dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="4dp"
+        android:divider="#00000000"
+        android:dividerHeight="0dip"
+        android:scrollbars="none" />
+</LinearLayout>

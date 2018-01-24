@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/tv_msg_id"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            style="@style/SecondaryTile"
+            android:layout_marginEnd="22dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginStart="35dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="1"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_msg_content"
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            style="@style/SecondaryTile"
+            android:layout_marginEnd="22dp"
+            android:layout_marginRight="22dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="温馨提示：雨天路滑，请小心驾驶！"
+        />
+
+        <ImageButton
+            android:id="@+id/bt_msg_operation"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@null"
+            android:scaleType="center"
+            android:src="@drawable/btn_upload_seletor" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="8dp"
+        android:src="@mipmap/dividing_line" />
+</LinearLayout>

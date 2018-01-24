@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="day_format">
+        <item>yyyy年MM月dd</item>
+        <item>yyyy-MM-dd</item>
+        <item>yyyy:MM:dd</item>
+    </string-array>
+
+    <string-array name="time_format">
+        <item>24小时</item>
+        <item>12小时</item>
+    </string-array>
+
+    <string-array name="alarm_spinner">
+        <item>当天</item>
+        <item>本周</item>
+        <item>本月</item>
+        <item>所有</item>
+    </string-array>
+
+    <string-array name="base_time_spinner">
+        <item>永不退出</item>
+        <item>30s</item>
+        <item>60s</item>
+        <item>130s</item>
+        <item>300s</item>
+    </string-array>
+    <string-array name="base_printer_spinner">
+        <item>无</item>
+        <item>强</item>
+        <item>中</item>
+        <item>弱</item>
+    </string-array>
+
+    <string-array name="serial_rate_spinner">
+        <item>4800</item>
+        <item>9600</item>
+        <item>14400</item>
+        <item>19200</item>
+        <item>38400</item>
+        <item>57600</item>
+        <item>115200</item>
+    </string-array>
+
+    <string-array name="serial_out_spinner">
+        <item>无</item>
+        <item>车载LED顶灯</item>
+        <item>计价器</item>
+    </string-array>
+
+    <string-array name="sensor_a_spinner">
+        <item>无</item>
+        <item>人工报警</item>
+        <item>前排左车门</item>
+        <item>前排右车门</item>
+        <item>服务评价(不满意)</item>
+        <item>服务评价(满意)</item>
+        <item>服务评价(非常满意)</item>
+        <item>大灯信号</item>
+        <item>司机位置</item>
+    </string-array>
+
+    <string-array name="sensor_b_spinner">
+        <item>高电平</item>
+        <item>低电平</item>
+    </string-array>
+    <string-array name="sensor_c_spinner">
+        <item>无</item>
+        <item>录像1</item>
+        <item>录像2</item>
+    </string-array>
+
+    <string-array name="sensor_out_spinner">
+        <item>无</item>
+        <item>油路</item>
+        <item>电路</item>
+        <item>服务评价器供电</item>
+        <item>空车</item>
+        <item>重车</item>
+        <item>电召</item>
+        <item>停运</item>
+        <item>车门</item>
+    </string-array>
+    <string-array name="power_acc_spinner">
+        <item>开关机</item>
+        <item>休眠</item>
+    </string-array>
+
+    <string-array name="power_bootmodel_spinner">
+        <item>点火</item>
+    </string-array>
+
+
+    <string-array name="speed_km_spinner">
+        <item>千米/小时</item>
+        <item>英里/小时</item>
+    </string-array>
+    <string-array name="speed_source_spinner">
+        <item>卫星</item>
+        <item>脉冲</item>
+        <item>CAN</item>
+    </string-array>
+</resources>

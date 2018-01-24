@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="22dp"
+            android:paddingTop="13dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="200dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/maintance_inpecte_content" />
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_parameter_text2" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_speed_km" />
+
+                <Spinner
+                    android:id="@+id/spinner_manggae_speed_km"
+                    style="@style/setting_spinner"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_base_left"
+                    android:entries="@array/alarm_spinner"></Spinner>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/spinner_manggae_speed_km"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="9dp"
+                    android:src="@mipmap/spinner_img_dwon" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_speed_alarmNumber" />
+
+                <EditText
+                    android:id="@+id/mangae_speed_alarmNumber"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_base_left"
+                    android:background="@mipmap/spinner_bg"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="1dp"
+                    android:text="120" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_speed_time" />
+
+                <EditText
+                    android:id="@+id/mangae_speed_time"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_base_left"
+                    android:background="@mipmap/spinner_bg"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="1dp"
+                    android:text="5" />
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/mangae_speed_time"
+                    android:paddingLeft="8dp"
+                    android:text="@string/seeting_miao" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_speed_pre_alarmNumber" />
+
+                <EditText
+                    android:id="@+id/mangae_speed_pre_alarmNumber"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_base_left"
+                    android:background="@mipmap/spinner_bg"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="1dp"
+                    android:text="110" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_speed_pre_time" />
+
+                <EditText
+                    android:id="@+id/mangae_speed_pre_time"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_base_left"
+                    android:background="@mipmap/spinner_bg"
+                    android:gravity="center_vertical"
+                    android:imeOptions="actionDone"
+                    android:inputType="number"
+                    android:paddingBottom="1dp"
+                    android:paddingEnd="12dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="1dp"
+                    android:text="10" />
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/mangae_speed_pre_time"
+                    android:paddingLeft="8dp"
+                    android:text="@string/seeting_miao" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/SecondaryTile"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/mangae_speed_source" />
+
+                <Spinner
+                    android:id="@+id/spinner_mangae_speed_source"
+                    style="@style/setting_spinner"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/mangae_base_left"
+                    android:entries="@array/alarm_spinner"></Spinner>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/spinner_mangae_speed_source"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="9dp"
+                    android:src="@mipmap/spinner_img_dwon" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@mipmap/viewline"></View>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="80dp">
+
+                <Button
+                    android:id="@+id/speed_btn_defult"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/base_btn_selector"
+                    android:text="@string/mangae_btn_defult" />
+
+                <Button
+                    android:id="@+id/speed_btn_save"
+                    style="@style/SecondaryTile"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="90dp"
+                    android:layout_toRightOf="@+id/speed_btn_defult"
+                    android:background="@drawable/base_btn_selector"
+                    android:text="@string/mangae_btn_save" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,304 @@
+<resources>
+    <string name="app_name">More</string>
+    <string name="app_mangaeActivity">Operation Management</string>
+    <string name="app_maintanceActivity">Settings Maintenance</string>
+    <string name="app_alarmActivity">Alarm Settings</string>
+    <string name="app_systemActivity">System Settings</string>
+    <string name="app_paramActivity">Parameter</string>
+
+    <!-- 公共部分 -->
+    <string name="txt_yes">Yes</string>
+    <string name="txt_no">No</string>
+    <string name="txt_emty">Null</string>
+    <string name="car_stander_default">Default</string>
+    <string name="car_stander_save">Save</string>
+    <string name="mangae_connect">Connected</string>
+    <string name="mangae_unconnect">Unconnected</string>
+    <string name="mangae_normal">Normal</string>
+    <string name="mangae_unnormal">UnNormal</string>
+    <string name="seeting_miao">s</string>
+
+    <!---   ******************    更多  *************************** -->
+    <string name="more_title">More</string>
+
+    <string name="more_system_setting">System</string>
+    <string name="more_communtion_setting">Device</string>
+    <string name="more_set_setting">Operation</string>
+    <string name="more_device_miantain">Alarm</string>
+
+    <string name="more_system_voice">System Volume</string>
+    <string name="more_system_light">Display Brightness</string>
+    <string name="more_system_wifi_connect">Wifi Connection</string>
+    <string name="more_system_host_setting">Hotspot Settings</string>
+    <string name="more_system_time_setting">Time Settings</string>
+    <string name="more_system_reset">System Reset</string>
+
+    <string name="more_system_voice_text">Volume</string>
+    <string name="more_system_touch_text">Touch Sound</string>
+
+    <string name="more_system_light_text">Brightness</string>
+    <string name="more_system_light_swtch">Automatic Adjustment</string>
+
+    <string name="more_system_wifi_net">Network Selection</string>
+
+    <string name="more_system_host_switch">Hot Switch</string>
+    <string name="more_system_host_name">Hotspot Name</string>
+    <string name="more_system_host_pws">Hot Password</string>
+    <string name="more_system_host_number">Connections Number</string>
+
+    <string name="more_system_time_dayformat">Date Format</string>
+    <string name="more_system_time_timeformat">Time Format</string>
+    <string name="more_system_time_timezone">Time zone selection</string>
+    <string name="more_system_time_chektime">Correct Time</string>
+    <string name="more_system_time_settime">Change Time</string>
+    <string name="more_system_time_sateChektime">Satellite Correct</string>
+    <string name="more_system_time_ntpChektime">NTP Correct</string>
+
+    <string name="more_system_reset_date">Personal Data</string>
+    <string name="more_system_reset_restore_factory">Reset</string>
+    <string name="more_system_reset_restore_factoryItem">Clear all the data on the terminal</string>
+    <string name="more_system_reset_system_restart">System Restart</string>
+    <string name="more_system_reset_system_restartItem">Software reboot, some peripherals uninterruptible power supply!</string>
+
+    <string name="more_alarm_speed">Speed Record</string>
+    <string name="more_alarm_deverce">Equipment</string>
+    <string name="more_alarm_other">Other</string>
+
+    <string name="more_alarm_speed_text1">"alarm number:  "</string>
+    <string name="more_alarm_speed_text2">"warning number:  "</string>
+    <string name="more_alarm_speed_text3">"Alarm number:  "</string>
+
+    <string name="more_alarm_speed_startime">"Starting Time："</string>
+    <string name="more_alarm_speed_continuedtime">"Duration :"</string>
+    <string name="more_alarm_speed_endtime">"End Time :"</string>
+
+
+    <string name="maintance_version">Version</string>
+    <string name="maintance_inpecte">State</string>
+    <string name="maintance_data">Data</string>
+    <string name="maintance_gps">GPS</string>
+    <string name="maintance_net">Internet</string>
+
+    <string name="maintance_inpecte_content">Content</string>
+    <string name="maintance_inpecte_state">Status</string>
+    <string name="maintance_inpecte_dvr">Camera</string>
+    <string name="maintance_inpecte_taximeter">Meter</string>
+    <string name="maintance_inpecte_carscreen">Empty Screen</string>
+    <string name="maintance_inpecte_gps">GPS Antenna</string>
+    <string name="maintance_inpecte_net">Communication Module</string>
+    <string name="maintance_inpecte_power">Powered</string>
+    <string name="maintance_inpecte_power_fuiler">Undervoltage</string>
+    <string name="maintance_inpecte_rentserver">Rental Service</string>
+    <string name="maintance_inpecte_vedioserver">Video Service</string>
+
+    <string name="maintance_version_model">Module</string>
+    <string name="maintance_version_version">Version</string>
+    <string name="maintance_version_update">Upgrade</string>
+
+    <string name="maintance_version_app">Application</string>
+    <string name="maintance_version_os">System</string>
+    <string name="maintance_version_mcu">Microcontroller</string>
+    <string name="maintance_version_dvr">Camera</string>
+    <string name="maintance_version_carsrceen">Empty Screen</string>
+    <string name="maintance_version_map">Map</string>
+    <string name="maintance_version_gaodemap">Gaode Map</string>
+
+    <string name="maintance_data_text">Operating</string>
+    <string name="maintance_data_driver_msg">Driver Information</string>
+    <string name="maintance_data_import">Parameter Import</string>
+    <string name="maintance_data_export">Parameters Export</string>
+    <string name="maintance_data_recovery">Data Recovery</string>
+    <string name="maintance_data_cleardb">Empty the database</string>
+    <string name="maintance_data_log_export">Log Export</string>
+    <string name="maintance_data_opreta_data">Operating Data Export</string>
+    <string name="maintance_data_sign">Sign out And Sign Export</string>
+    <string name="maintance_data_alarm">Alarm Data</string>
+    <string name="maintance_data_text_export">Export</string>
+    <string name="maintance_data_text_clear">Emptied</string>
+    <string name="maintance_data_redefault">Reset</string>
+    <string name="maintance_data_text_import">Import</string>
+
+    <string name="maintance_net_sim">SIM State</string>
+    <string name="maintance_net_facilitator">Service Provider</string>
+    <string name="maintance_net_signal">Signal Strength</string>
+    <string name="maintance_net_roam">Whether Roaming</string>
+    <string name="maintance_net_type">Network Type</string>
+    <string name="maintance_net_state">Network Status</string>
+    <string name="maintance_net_ip">IP Address</string>
+    <!-- 未知 -->
+    <string name="net_txt_unknowstate">Unknown</string>
+    <!-- 未插卡 -->
+    <string name="net_txt_nocardstate">Not Inserted Card</string>
+    <!-- 锁定 -->
+    <string name="net_txt_lockedstate">Locking</string>
+    <!-- 就绪 -->
+    <string name="net_txt_readystate">Ready </string>
+    <!-- 中国移动 -->
+    <string name="net_txt_cmobile">CMCC</string>
+    <!-- 中国联通 -->
+    <string name="net_txt_cunicom">CUCC</string>
+    <!-- 中国电信 -->
+    <string name="net_txt_ctelecommunication">CTCC</string>
+    <!--  可用 -->
+    <string name="net_txt_netok">Available</string>
+    <!--  不可用 -->
+    <string name="net_txt_netno">Unavailable</string>
+    <!--  检测中 -->
+    <string name="net_txt_netchek">Checking...</string>
+
+
+    <string name="maintance_location_state">Locate State:</string>
+    <string name="maintance_location_Modestate">Mode State:</string>
+    <string name="maintance_location_startState">Star State:</string>
+    <string name="maintance_location_longitude">Longitude:</string>
+    <string name="maintance_location_latitude">Latitude:</string>
+    <string name="maintance_location_sateNumber">Stars Number:</string>
+    <string name="maintance_location_gpsNumber">Use Stars Number:</string>
+    <string name="maintance_location_gps">GPS:</string>
+    <string name="maintance_location_beidou">BD:</string>
+    <string name="maintance_location_ok">Already Positioned</string>
+    <string name="maintance_location_no">Not Located</string>
+
+    <string name="mangae_setting_base">Basic</string>
+    <string name="mangae_setting_parameter">Platform</string>
+    <string name="mangae_setting_dial">Dialing</string>
+    <string name="mangae_setting_serialPort">Serial Port</string>
+    <string name="mangae_setting_sensor">Sensing</string>
+    <string name="mangae_setting_power">Power</string>
+    <string name="mangae_setting_speed">Speed</string>
+
+
+    <string name="mangae_setting_base_carNumber">Car Number</string>
+    <string name="mangae_setting_base_terminalNumber">Terminal Number</string>
+    <string name="mangae_setting_base_canmpertName">Company Name</string>
+    <string name="mangae_setting_base_dvrNumber">Video Host Number</string>
+    <string name="mangae_setting_base_time">Operation Timed Out</string>
+    <string name="mangae_setting_base_printer">Printer Sensitivity</string>
+    <string name="mangae_setting_base_latch">Latch</string>
+    <string name="mangae_setting_base_pre_time">Prerecorded</string>
+    <string name="mangae_setting_base_delay_time">Delay</string>
+    <string name="mangae_setting_base_zhuce">Registered</string>
+    <string name="mangae_setting_base_minute">min</string>
+
+    <string name="mangae_btn_defult">Default</string>
+    <string name="mangae_btn_save">Save</string>
+
+    <string name="mangae_parameter_domain">Domain Name</string>
+    <string name="mangae_parameter_btnConnect">Connect</string>
+    <string name="mangae_parameter_btndisConnect">Disconnect</string>
+    <string name="mangae_parameter_modelText0">Null</string>
+    <string name="mangae_parameter_text0">Select</string>
+    <string name="mangae_parameter_text1">Platform</string>
+    <string name="mangae_parameter_text2">Parameter</string>
+    <string name="mangae_parameter_text3">State</string>
+    <string name="mangae_parameter_rentalServer">Address</string>
+    <string name="mangae_parameter_rentalServerPort">Port</string>
+    <string name="mangae_parameter_Spare_rentalServer">Spare Address</string>
+    <string name="mangae_parameter_Spare_rentalServerPort">Spare Port</string>
+    <string name="mangae_parameter_rentalServer2">Server Address 2</string>
+    <string name="mangae_parameter_rentalServerPort2">Server Port 2</string>
+    <string name="mangae_parameter_Spare_rentalServer2">Spare Address 2</string>
+    <string name="mangae_parameter_Spare_rentalServerPort2">Spare Port 2</string>
+
+
+    <string name="mangae_speed_km">Speed Unit</string>
+    <string name="mangae_speed_alarmNumber">Speed Alarm Value</string>
+    <string name="mangae_speed_time">Speeding Alarm</string>
+    <string name="mangae_speed_pre_alarmNumber">Pre-speed value</string>
+    <string name="mangae_speed_pre_time">Pre-speed Duration</string>
+    <string name="mangae_speed_source">Speed Source</string>
+
+    <string name="mangae_dial_baud_rate">Baud Rate</string>
+    <string name="mangae_dial_peripheral">Peripherals</string>
+
+    <string name="mangae_power_acc">ACC Function Mode</string>
+    <string name="mangae_power_bootmodel">Boot Mode</string>
+    <string name="mangae_power_noboottime">Shutdown Delay</string>
+    <string name="mangae_power_lowpower">Low Voltage</string>
+    <string name="mangae_power_acc_battery_low">Battery Low-Voltage</string>
+    <string name="mangae_power_recovery_power">Restore Voltage</string>
+    <string name="mangae_power_battery_alarm">Undervoltage Alarm</string>
+
+    <string name="mangae_sensor_in_text">Enter</string>
+    <string name="mangae_sensor_out_text">Output</string>
+    <string name="mangae_sensor_in_sensore">Sensor</string>
+    <string name="mangae_sensor_in_enable">Enable</string>
+    <string name="mangae_sensor_in_purpose">Purpose</string>
+    <string name="mangae_sensor_in_level">Trigger</string>
+    <string name="mangae_sensor_in_dvr">Video</string>
+    <string name="title_activity_param">ParamActivity</string>
+    <string name="settings_toast_ipformat">IP format is wrong:</string>
+    <string name="settings_toast_portformat">The input content is empty or the format is mistaken!</string>
+
+    <!--int UnLoginReportIntervalTime=0x0022;//未登录汇报时间间隔-->
+    <!--int AccOffReportIntervalTime=0x0023;//ACC OFF时间间隔（秒）-->
+    <!--int AccOnfReportIntervalTime=0x0024;//ACC ON时间间隔（秒）-->
+    <!--int EmptyReportIntervalTime=0x0025;//空车时间间隔（秒）-->
+    <!--int NonEmptyReportIntervalTime=0x0026;//重车时间间隔（秒）-->
+    <!--int SleepReportIntervalTime=0x0027;//休眠时时间间隔（秒）-->
+    <!--int EmergencyReportIntervalTime=0x0028;//紧急报警时时间间隔（秒）-->
+
+    <string name="heartbeat">Heartbeat Interval</string>
+    <string name="tcpresponsetimeout">TCP Response Timeout</string>
+    <string name="tcpresendtime">TCP Retransmission Times</string>
+    <string name="smsresponsetimeout">SMS Response Timeout</string>
+    <string name="smsresendtime">SMS Retransmission Timeout</string>
+    <string name="mainipordomain">Master server address</string>
+    <string name="SpareIpOrDomain">Backup server address</string>
+    <string name="sparetcpport">Standby server TCP port</string>
+    <string name="maintcpport">Main server TCP port</string>
+    <string name="locationreportstrateges">Location reporting strategy</string>
+    <string name="locationreportplans">Position reporting scheme</string>
+    <string name="unloginreportintervaltime">Unregistered reporting time interval（s）</string>
+    <string name="accoffreportintervaltime">ACC OFF Time Interval（s）</string>
+    <string name="acconfreportintervaltime">ACC ON Time Interval（s）</string>
+    <string name="EmptyReportIntervalTime">Empty Time Interval（s）</string>
+    <string name="NonEmptyReportIntervalTime">Heavy Time Interval（s）</string>
+    <string name="sleepreportintervaltime">Sleep Time Interval（s）</string>
+    <string name="emergencyreportintervaltime">Alarm Time Interval（s）</string>
+
+    <string name="unloginreportintervaldistance">Unregistered Distance Interval（m）</string>
+    <string name="accoffreportintervaldistance">ACC OFF Distance Interval（m）</string>
+    <string name="acconfreportintervaldistance">ACC ON Distance Interval（m）</string>
+    <string name="sleepreportintervaldistance">Sleep Distance Interval（m）</string>
+    <string name="emergencyreportintervaldistance">Alarm Distance Interval（m）</string>
+    <string name="EmptyReportIntervaldistance">Empty Distance Interval（m）</string>
+    <string name="NonEmptyReportIntervaldistance">Heavy Distance Interval（m）</string>
+    <string name="ReportStratege_Time">Timed Reporting</string>
+    <string name="ReportStratege_Distance">Pitch Reporting</string>
+    <string name="ReportStratege_TimeAndDistance">Timed Pitch Reporting</string>
+    <string name="ReportPlan_ByACC">ACC State</string>
+    <string name="ReportPlan_ByEmpty">Empty Heavy State</string>
+    <string name="ReportPlan_ByLoginAndAcc">Sign State</string>
+    <string name="ReportPlan_ByLoginAndEmpty">Sign Empty Heavy State</string>
+
+    <!-- 升级 -->
+    <string name="noCurrentVersionName">Null</string>
+    <string name="apkUpdate">Upgrade</string>
+    <string name="apkInstall">Install</string>
+    <string name="apkinstalledAlerdy">already Installed</string>
+    <string name="btnOk">Confirm</string>
+    <string name="btnNo">Cancel</string>
+    <string name="tipTitle">Tips</string>
+    <string name="msgNoSDCard">SD card does not exist!</string>
+    <string name="msgNoUpdateFile">No upgrade files!</string>
+    <string name="msgIsLastVersin">No scalable apk!</string>
+    <string name="msgQueryUpdate">Looking for upgrade information, please wait ...</string>
+    <string name="msgUpdate">Upgrading, please wait ...</string>
+    <string name="updateApkSuccess">Update Successed</string>
+    <string name="updateApkFailed">Upgrade Failed</string>
+
+    <item name="key_dialog_type" type="id"></item>
+    <item name="key_filePath" type="id"></item>
+
+    <!--导入导出-->
+    <string name="exporting_toast">Exporting please please later. . .</string>
+    <string name="importing_toast">Loading Please wait . .</string>
+    <string name="export_success_toast">Export successful！</string>
+    <string name="export_failure_toast">Export failed！</string>
+    <string name="import_success_toast">Import successful！</string>
+    <string name="import_failure_toast">Import failed！</string>
+    <string name="usb_not_exist_toast">U disk is not inserted！</string>
+    <string name="db_not_data_toast">The database does not have the corresponding data!</string>
+
+</resources>

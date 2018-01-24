@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+        <View
+            style="@style/View_line"
+            ></View>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="50dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="无线局域网"
+                android:textColor="@color/textColor"
+                android:textSize="18dp"/>
+
+            <Switch
+                android:id="@+id/more_wifi_swith"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+        <View
+            style="@style/View_line"
+            ></View>
+
+        <RelativeLayout
+            android:id="@+id/more_current_wifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="4dp"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp">
+
+            <ImageView
+                android:id="@+id/more_wifiok_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/w"/>
+
+            <TextView
+                android:id="@+id/more_current_wifi_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/more_wifiok_image"
+                android:text="Uninew_Test"
+                android:textColor="@color/textColor"
+                android:textSize="18dp"/>
+
+            <ImageView
+                android:id="@+id/more_wifi_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/wifi"/>
+        </RelativeLayout>
+        <View
+            style="@style/View_line"
+            ></View>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/more_system_wifi_net"
+            android:paddingLeft="20dp"
+            android:paddingBottom="4dp"
+            android:paddingTop="20dp"
+            android:paddingRight="4dp"
+            android:textColor="@color/textColor"
+            android:textSize="20dp"
+            android:background="#A9A9A9"/>
+        <View
+            style="@style/View_line"
+            ></View>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ListView
+            android:id="@+id/more_wifi_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:divider="#00BFFF"
+            android:dividerHeight="1dp"></ListView>
+    </LinearLayout>
+
+</LinearLayout>
